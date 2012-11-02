@@ -19,8 +19,8 @@
 					</div>
 					<div class="search">
 						<form action="" method="post">
-							<input type="text" name="search" palceholder="جستجو عبارت مورد نظر" />
-							<input type="submit" name="submit" value="جستجو" />
+							<input type="text" name="search" class="searchbox" palceholder="جستجو عبارت مورد نظر" />
+							<input type="submit" name="submit" class="submit" value="جستجو" />
 						</form>
 					</div>
 					<div class="badboy"></div>

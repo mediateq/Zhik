@@ -28,10 +28,9 @@ header.header .head{
 }
 
 header.header .head .logo{
-	min-height: 70px;
-	width: 240px;
+	width: 140px;
 	float: left;
-	margin-top: 3px;
+	margin-top: 8px;
 }
 
 header.header .head .logo a{
@@ -40,9 +39,17 @@ header.header .head .logo a{
 }
 
 header.header .head .search{
-	min-height: 40px;
-	margin-left: 550px;
+	margin-left: 650px;
 	margin-top: 20px;
+}
+
+header.header .head .search .searchbox{
+	float: right;
+	padding: 5px 40px;
+}
+
+header.header .head .search .submit{
+	padding: 5px 0;
 }
 
 header.header .menu{
