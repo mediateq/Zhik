@@ -24,7 +24,7 @@ div.contain div.hline{
 div.container{
 	min-height: 1550px;
 }
-/*/////////////Header//////////////*/
+/*////////////////////////////////Header/////////////////////////////*/
 header.header .head{
 	min-height: 70px;
 	margin-top: 15px;
@@ -60,11 +60,31 @@ header.header .head .search .submit{
 	color: #fff;
 }
 
+/*/////////////////////////////////Menu////////////////////////////////*/
 header.header .menu{
-	min-height: 70px;
-	margin-top: 30px;
+	padding-top: 20px;
 }
-/*/////////////Banner//////////////*/
+
+header.header .menu ul{
+	list-style-type: none;
+	
+}
+
+header.header .menu ul li{
+	float: right;
+	
+}
+
+header.header .menu ul li:first-child{
+	border-right: 0 none;
+}
+
+header.header .menu ul li a{
+	display: block;
+	padding: 15px 20px;
+}
+
+/*/////////////////////////////////Banner//////////////////////////////*/
 section.banner{
 	min-height: 570px;
 	margin-top: 25px;
@@ -78,7 +98,8 @@ section.banner .text{
 	min-height: 50px;
 	margin-top: 10px;
 }
-/*/////////////Middle 1//////////////*/
+
+/*///////////////////////////////////Middle 1//////////////////////////*/
 section.middle1{
 	min-height: 340px;
 	margin-top: 30px;
@@ -101,7 +122,8 @@ section.middle1 .third{
 	margin-left: 634px;
 	min-height: 320px;
 }
-/*/////////////Middle 2//////////////*/
+
+/*///////////////////////////////////Middle 2//////////////////////////*/
 section.middle2{
 	min-height: 330px;
 	margin-top: 20px;
@@ -123,7 +145,8 @@ section.middle2 .third{
 	min-height: 330px;
 	margin-left: 634px;
 }
-/*/////////////Footer//////////////*/
+
+/*/////////////////////////////////////Footer///////////////////////////*/
 footer.contain{
 	min-height: 190px;
 	background-image: url('images/footer.gif');

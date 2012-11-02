@@ -25,7 +25,19 @@
 					</div>
 					<div class="badboy"></div>
 				</div>
-				<nav class="menu"></nav>
+				<nav class="menu">
+					<menu>
+						<ul>
+							<li><a href="#">خانه</a></li>
+							<li><a href="#">درباره ما</a></li>
+							<li><a href="#">کارهای ما</a></li>
+							<li><a href="#">مقالات</a></li>
+							<li><a href="#">پروزهای در دست احداث</a></li>
+							<li><a href="#">تماس با ما</a></li>
+						</ul>
+						<div class="badboy"></div>
+					</menu>
+				</nav>
 			</header>
 			<section class="banner">
 				<div class="slideshow"></div>
