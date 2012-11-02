@@ -61,25 +61,31 @@ header.header .head .search .submit{
 }
 
 /*/////////////////////////////////Menu////////////////////////////////*/
-header.header .menu{
+header.header nav{
 	margin-top: 35px;
+}
+
+header.header nav menu{
 	border-top: 1px solid #d1d1d1;
 	border-bottom: 1px solid #d1d1d1;
 }
 
-header.header .menu li{
-	float: right;	
+header.header nav menu li{
+	float: right;
 	border-right: 1px solid #d1d1d1;
+	margin: -10px 0;
 }
 
-header.header .menu li:first-child{
+header.header nav menu li:first-child{
 	border-right: 0 none;
 }
 
-header.header .menu li a{
+header.header nav menu li a{
 	display: block;
 	padding: 15px 20px;
 	text-decoration: none;
+	
+	
 }
 
 /*/////////////////////////////////Banner//////////////////////////////*/

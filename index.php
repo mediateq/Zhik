@@ -25,7 +25,7 @@
 					</div>
 					<div class="badboy"></div>
 				</div>
-				<nav class="menu">
+				<nav>
 					<menu>
 						<li><a href="#">خانه</a></li>
 						<li><a href="#">درباره ما</a></li>
