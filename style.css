@@ -82,10 +82,9 @@ header.header nav menu li:first-child{
 
 header.header nav menu li a{
 	display: block;
-	padding: 15px 20px;
+	padding: 30px 45px;
 	text-decoration: none;
-	
-	
+	color: #464646;	
 }
 
 /*/////////////////////////////////Banner//////////////////////////////*/
