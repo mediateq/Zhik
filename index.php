@@ -25,11 +25,13 @@
 				<div class="first"></div>
 				<div class="second"></div>
 				<div class="third"></div>
+				<div class="badboy"></div>
 			</section>
 			<section class="middle2">
 				<div class="first"></div>
 				<div class="second"></div>
 				<div class="third"></div>
+				<div class="badboy"></div>
 			</section>
 		</div>
 		<footer class="contain">
@@ -47,11 +49,14 @@
 					<div class="schub1">
 						<div class="fa"></div>
 						<div class="tw"></div>
+						<div class="badboy"></div>
 					</div>
 					<div class="schub2">
 						<div class="gp"></div>
 						<div class="rs"></div>
+						<div class="badboy"></div>
 					</div>
+					<div class="badboy"></div>
 				</div>
 			</section>
 		</footer>
