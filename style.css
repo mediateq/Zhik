@@ -62,26 +62,24 @@ header.header .head .search .submit{
 
 /*/////////////////////////////////Menu////////////////////////////////*/
 header.header .menu{
-	padding-top: 20px;
+	margin-top: 35px;
+	border-top: 1px solid #d1d1d1;
+	border-bottom: 1px solid #d1d1d1;
 }
 
-header.header .menu ul{
-	list-style-type: none;
-	
+header.header .menu li{
+	float: right;	
+	border-right: 1px solid #d1d1d1;
 }
 
-header.header .menu ul li{
-	float: right;
-	
-}
-
-header.header .menu ul li:first-child{
+header.header .menu li:first-child{
 	border-right: 0 none;
 }
 
-header.header .menu ul li a{
+header.header .menu li a{
 	display: block;
 	padding: 15px 20px;
+	text-decoration: none;
 }
 
 /*/////////////////////////////////Banner//////////////////////////////*/
