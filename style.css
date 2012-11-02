@@ -30,11 +30,13 @@ header.header .head{
 header.header .head .logo{
 	min-height: 70px;
 	width: 240px;
-	background-image: url('./images/logo.png');
-	background-repeat: no-repeat;
-	background-position: center;
 	float: left;
 	margin-top: 3px;
+}
+
+header.header .head .logo a{
+	display: block;
+	cursor: pointer;
 }
 
 header.header .head .search{

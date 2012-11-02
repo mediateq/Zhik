@@ -12,7 +12,11 @@
 		<div class="container">
 			<header class="header">
 				<div class="head">
-					<div class="logo"></div>
+					<div class="logo">
+						<a href="http://www.zhik.pro" title="zhik.pro">
+							<img src="./images/logo.png" alt="zhik" />
+						</a>
+					</div>
 					<div class="search"></div>
 					<div class="badboy"></div>
 				</div>
