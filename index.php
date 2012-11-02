@@ -17,7 +17,12 @@
 							<img src="./images/logo.png" alt="zhik" />
 						</a>
 					</div>
-					<div class="search"></div>
+					<div class="search">
+						<form action="" method="post">
+							<input type="text" name="search" palceholder="جستجو عبارت مورد نظر" />
+							<input type="submit" name="submit" value="جستجو" />
+						</form>
+					</div>
 					<div class="badboy"></div>
 				</div>
 				<nav class="menu"></nav>
