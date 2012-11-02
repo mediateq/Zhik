@@ -14,6 +14,7 @@
 				<div class="head">
 					<div class="logo"></div>
 					<div class="search"></div>
+					<div class="badboy"></div>
 				</div>
 				<nav class="menu"></nav>
 			</header>
