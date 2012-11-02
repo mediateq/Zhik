@@ -12,16 +12,16 @@
 		<div class="container">
 			<header class="header">
 				<div class="head">
+					<div class="search">
+						<form action="" method="post">
+							<input type="text" name="search" class="searchbox" placeholder="جستجو عبارت مورد نظر" />
+							<input type="submit" name="submit" class="submit" value="جستجو" />
+						</form>
+					</div>
 					<div class="logo">
 						<a href="http://www.zhik.pro" title="zhik.pro">
 							<img src="./images/logo.png" alt="zhik" />
 						</a>
-					</div>
-					<div class="search">
-						<form action="" method="post">
-							<input type="text" name="search" class="searchbox" palceholder="جستجو عبارت مورد نظر" />
-							<input type="submit" name="submit" class="submit" value="جستجو" />
-						</form>
 					</div>
 					<div class="badboy"></div>
 				</div>

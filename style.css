@@ -2,6 +2,10 @@
 	outline: 1px dashed red;
 }
 
+body{
+	direction:rtl;
+}
+
 div.contain{
 	background-image   : url('images/body.gif');
 	background-repeat  : repeat-x repeat-y;
@@ -28,8 +32,7 @@ header.header .head{
 }
 
 header.header .head .logo{
-	width: 140px;
-	float: left;
+	margin-right: 800px;
 	margin-top: 8px;
 }
 
@@ -39,13 +42,13 @@ header.header .head .logo a{
 }
 
 header.header .head .search{
-	margin-left: 650px;
 	margin-top: 20px;
+	float: right;
 }
 
 header.header .head .search .searchbox{
-	float: right;
-	padding: 5px 40px;
+	padding: 5px 0;
+	width: 256px;
 }
 
 header.header .head .search .submit{
