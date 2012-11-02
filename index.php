@@ -27,14 +27,12 @@
 				</div>
 				<nav class="menu">
 					<menu>
-						<ul>
-							<li><a href="#">خانه</a></li>
-							<li><a href="#">درباره ما</a></li>
-							<li><a href="#">کارهای ما</a></li>
-							<li><a href="#">مقالات</a></li>
-							<li><a href="#">پروزهای در دست احداث</a></li>
-							<li><a href="#">تماس با ما</a></li>
-						</ul>
+						<li><a href="#">خانه</a></li>
+						<li><a href="#">درباره ما</a></li>
+						<li><a href="#">کارهای ما</a></li>
+						<li><a href="#">مقالات</a></li>
+						<li><a href="#">پروزهای در دست احداث</a></li>
+						<li><a href="#">تماس با ما</a></li>
 						<div class="badboy"></div>
 					</menu>
 				</nav>
