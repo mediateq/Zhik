@@ -211,7 +211,7 @@ footer.contain .footer{
 footer.contain .footer .first{
 	min-height: 75px;
 	width: 317px;
-	float: right;
+	float: left;
 }
 
 footer.contain .footer .first .copyright{
@@ -228,17 +228,11 @@ footer.contain .footer .first .copyright p{
 footer.contain .footer .second{
 	min-height: 115px;
 	width: 317px;
-	float: right;
+	float: left;
 }
 
 footer.contain .footer .second .header{
 	min-height: 25px; 
-}
-
-footer.contain .footer .second .header p{
-	text-align: right;
-	color: #d4d4d4;
-	font-weight: bold;
 }
 
 footer.contain .footer .second .text{
@@ -246,49 +240,23 @@ footer.contain .footer .second .text{
 	margin-top: 15px;
 }
 
-footer.contain .footer .second .text p{
-	text-align: right;
-	color: #d4d4d4;
-}
-
 footer.contain .footer .third{
 	min-height: 130px;
-	margin-right: 634px;
+	margin-left: 634px;
 }
 
 footer.contain .footer .third .header{
 	min-height: 25px;
 }
 
-footer.contain .footer .third .schub1{
-	min-height: 35px;
-	margin-top: 17px;
+footer.contain .footer .header p{
+	text-align: right;
+	color: #d4d4d4;
+	font-weight: bold;
 }
 
-footer.contain .footer .third .schub1 .fa{
-	min-height: 35px;
-	width: 110px;
-	float: left;
-}
 
-footer.contain .footer .third .schub1 .tw{
-	min-height: 35px;
-	margin-left: 160px;
-	margin-right: 50px;
-}
-
-footer.contain .footer .third .schub2{
-	min-height: 35px;
-}
-
-footer.contain .footer .third .schub2 .gp{
-	min-height: 35px;
-	width: 110px;
-	float: left;
-}
-
-footer.contain .footer .third .schub2 .rs{
-	min-height: 35px;
-	margin-left: 160px;
-	margin-right: 50px;
+footer.contain .footer .text p{
+	text-align: right;
+	color: #d4d4d4;
 }

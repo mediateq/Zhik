@@ -125,6 +125,18 @@
 					</div>
 				</div>
 				<div class="second">
+					<div class="header">
+						<p>
+							درباره ما 		
+						</p>
+					</div>
+					<div class="text">
+						<p>
+							شرکت ژیک از سال شرکت ژیک از سال شرکت ژیک از سال شرکت ژیک از سال شرکت ژیک از سال شرکت ژیک از سال شرکت ژیک از سال شرکت ژیک از سال شرکت ژیک از سال شرکت ژیک از سال 
+						</p>
+					</div>
+				</div>
+				<div class="third">
 					<div class="header"><p>تماس با ما</p></div>
 					<div class="text">
 						<p>
@@ -137,20 +149,6 @@
 							ایمیل: jaghfj@ksjdhfj.com
 						</p><br />
 					</div>
-				</div>
-				<div class="third">
-					<div class="header"></div>
-					<div class="schub1">
-						<div class="fa"></div>
-						<div class="tw"></div>
-						<div class="badboy"></div>
-					</div>
-					<div class="schub2">
-						<div class="gp"></div>
-						<div class="rs"></div>
-						<div class="badboy"></div>
-					</div>
-					<div class="badboy"></div>
 				</div>
 			</section>
 		</footer>
