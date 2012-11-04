@@ -14,8 +14,6 @@ div.contain{
 
 div.contain div.hline{
 	min-height: 7px;
-	left: 0;
-	right: 0;
 	background-image: url('images/header.gif');
 	background-repeat: repeat-x;
 	background-position: center;
