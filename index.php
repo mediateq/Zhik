@@ -125,8 +125,18 @@
 					</div>
 				</div>
 				<div class="second">
-					<div class="header"></div>
-					<div class="text"></div>
+					<div class="header"><p>تماس با ما</p></div>
+					<div class="text">
+						<p>
+							آدرس: مشهد خیابان معلم مشهد خیابان معلمشهد خیابان معلمشهد خیابان مع
+						</p><br />
+						<p>
+							تلفن: 123456789
+						</p><br />
+						<p>
+							ایمیل: jaghfj@ksjdhfj.com
+						</p><br />
+					</div>
 				</div>
 				<div class="third">
 					<div class="header"></div>
