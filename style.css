@@ -120,19 +120,20 @@ section.welcome{
 }
 
 section.welcome > div{
-	background: url('./images/spacer.gif') right center repeat-y;
+	/*background: url('./images/spacer.gif') 310px 0 repeat-y;*/
+	border-right: 1px solid #d4d4d4;
 	margin: -20px 0;
 }
 
 section.welcome > div:first-child{
-	background: 0 none;
+	border-right: 0 none;
 }
 
 section.welcome .first,
 section.welcome .second,
 section.welcome .third{
 	 float: right;
-	 width: 266px;
+	 width: 260px;
 	 padding: 40px 25px;
 }
 
