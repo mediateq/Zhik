@@ -69,6 +69,7 @@
 				<div class="badboy"></div>
 			</section>
 		<!-- ------------------------footer--------------------- -->
+		</div>
 		<footer class="contain">
 			<section class="footer container">
 				<div class="first">

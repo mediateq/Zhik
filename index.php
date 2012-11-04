@@ -118,8 +118,8 @@
 				</div>
 				<div class="badboy"></div>
 			</section>
-		</div>
 		<!-- ------------------------footer--------------------- -->
+		</div>
 		<footer class="contain">
 			<section class="footer container">
 				<div class="first">
