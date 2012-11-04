@@ -15,6 +15,7 @@
 	<div class="contain">
 		<div class="hline"></div>
 		<div class="container">
+			<!-- ------------------------Header--------------------- -->
 			<header class="header">
 				<div class="head">
 					<div class="search">
@@ -43,6 +44,7 @@
 					<div class="badboy"></div>
 				</nav>
 			</header>
+			<!-- ------------------------banner--------------------- -->
 			<section class="banner">
 				<div class="slideshow">
 					<ul id="slider">
@@ -57,6 +59,7 @@
 					<p>شرکت ژیک جهت بهره وری بیشر در کارهای خود</p>
 				</div>
 			</section>
+			<!-- ------------------------welcome--------------------- -->
 			<section class="welcome">
 				<div class="first">
 					<div class="title"><h2>کار شماره 1</h2></div>
@@ -84,6 +87,7 @@
 				</div>
 				<div class="badboy"></div>
 			</section>
+			<!-- ------------------------recent--------------------- -->
 			<div class="rectitle"><p>آخرین پروژه ها</p></div>
 			<section class="recent">
 				<div class="first">
@@ -110,6 +114,7 @@
 				<div class="badboy"></div>
 			</section>
 		</div>
+		<!-- ------------------------footer--------------------- -->
 		<footer class="contain">
 			<section class="footer container">
 				<div class="first">
