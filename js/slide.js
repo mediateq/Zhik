@@ -779,202 +779,47 @@
 	};
 
 	$.fn.rhinoslider.effects = {
-		//options: direction, animateActive, shiftValue
-		kick: function ($slider, params, callback) {
+		//options: easing, animateActive
+		fade: function ($slider, params, callback) {
 			var vars = $slider.data('slider:vars');
 			var settings = params.settings;
-			var direction = params.direction;
-			var values = [];
-
-			values.delay = settings.effectTime / 2;
-			values.activeEffectTime = settings.effectTime / 2;
-			settings.shiftValue.x = settings.shiftValue.x < 0 ? settings.shiftValue.x * -1 : settings.shiftValue.x;
-
-
-			//check, in which direction the content will be moved
-			switch (direction) {
-				case 'toTop':
-					values.top = -settings.shiftValue.x;
-					values.left = 0;
-					values.nextTop = settings.shiftValue.x;
-					values.nextLeft = 0;
-					break;
-				case 'toBottom':
-					values.top = settings.shiftValue.x;
-					values.left = 0;
-					values.nextTop = -settings.shiftValue.x;
-					values.nextLeft = 0;
-					break;
-				case 'toRight':
-					values.top = 0;
-					values.left = settings.shiftValue.x;
-					values.nextTop = 0;
-					values.nextLeft = -settings.shiftValue.x;
-					break;
-				case 'toLeft':
-					values.top = 0;
-					values.left = -settings.shiftValue.x;
-					values.nextTop = 0;
-					values.nextLeft = settings.shiftValue.x;
-					break;
-			}
-
-			//put the "next"-element on top of the others and show/hide it, depending on the effect
-			vars.next.css({
-				zIndex: 2,
-				opacity: 0
-			});
-
-			vars.active.css({
-				top: 0,
-				left: 0
-			});
-			if (settings.animateActive) {
-				//delay is for kick, so it seems as if the "next"-element kicks the activ-element away
-				vars.active.delay(values.delay).animate({
-					top: values.top,
-					left: values.left,
-					opacity: 0
-				}, values.activeEffectTime, 'out'); //easing is variable because kick seems more "realistic" if it's not too linear
-			}
-
-			vars.next
-			//position "next"-element depending on the direction
-			.css({
-				top: values.nextTop,
-				left: values.nextLeft
-			}).animate({
-				top: 0,
-				left: 0,
-				opacity: 1
-			}, settings.effectTime, 'kick', function () {
-				//reset element-positions
-				callback($slider, settings);
-			});
-		},
-		//options: direction, animateActive, easing, shiftValue
-		transfer: function ($slider, params, callback) {
-			var settings = params.settings;
-			var direction = params.direction;
-			var vars = $slider.data('slider:vars');
-			var values = [];
-			values.width = $slider.width();
-			values.height = $slider.height();
-			
-			//set values for effect
-			switch (direction) {
-				case 'toTop':
-					values.top = -settings.shiftValue.y;
-					values.left = values.width / 2;
-					values.nextTop = values.height + settings.shiftValue.y;
-					values.nextLeft = values.width / 2;
-					break;
-				case 'toBottom':
-					values.top = values.height + settings.shiftValue.y;
-					values.left = values.width / 2;
-					values.nextTop = -settings.shiftValue.y;
-					values.nextLeft = values.width / 2;
-					break;
-				case 'toRight':
-					values.top = values.height / 2;
-					values.left = values.width + settings.shiftValue.x;
-					values.nextTop = values.height / 2;
-					values.nextLeft = -settings.shiftValue.x;
-					break;
-				case 'toLeft':
-					values.top = values.height / 2;
-					values.left = -settings.shiftValue.x;
-					values.nextTop = values.height / 2;
-					values.nextLeft = values.width + settings.shiftValue.x;
-					break;
-			}
-			vars.next.children().wrapAll('<div id="' + vars.prefix + 'nextContainer" class="' + vars.prefix + 'tmpContainer"></div>');
-			vars.active.children().wrapAll('<div id="' + vars.prefix + 'activeContainer" class="' + vars.prefix + 'tmpContainer"></div>');
-			var
-				$nextContainer = vars.next.find('#' + vars.prefix + 'nextContainer'),
-				$activeContainer = vars.active.find('#' + vars.prefix + 'activeContainer'),
-				$tmpContainer = vars.container.find('.' + vars.prefix + 'tmpContainer');
-
-			$activeContainer.css({
-				width: values.width,
-				height: values.height,
-				position: 'absolute',
-				top: '50%',
-				left: '50%',
-				margin: '-' + parseInt(values.height * 0.5, 10) + 'px 0 0 -' + parseInt(values.width * 0.5, 10) + 'px'
-
-			});
-				
-			$nextContainer.css({
-				width: values.width,
-				height: values.height,
-				position: 'absolute',
-				top: '50%',
-				left: '50%',
-				margin: '-' + parseInt(values.height * 0.5, 10) + 'px 0 0 -' + parseInt(values.width * 0.5, 10) + 'px'
-			});
-			
 			if(settings.animateActive){
-				
-				vars.active.css({
-					width: '100%',
-					height: '100%',
-					top: 0,
-					left: 0
-				}).animate({
-					width: 0,
-					height: 0,
-					top: values.top,
-					left: values.left,
+				vars.active.animate({
 					opacity: 0
 				}, settings.effectTime);
 			}
-
+			//set next on top of the others and hide it
 			vars.next.css({
-				opacity: 0,
-				zIndex: 2,
-				width: 0,
-				height: 0,
-				top: values.nextTop,
-				left: values.nextLeft
-			}).animate({
-				width: '100%',
-				height: '100%',
-				top: 0,
-				left: 0,
+				zIndex: 2
+			})
+			//then fade it in - fade with animate-> fade didnt do it...
+			.animate({
 				opacity: 1
 			}, settings.effectTime, settings.easing, function () {
-				$tmpContainer.children().unwrap();
+				//and reset the rest
 				callback($slider, settings);
 			});
-
 		}
 	};
 
 	$.fn.rhinoslider.preparations = {
-		kick: function ($slider, settings, vars) {
-			vars.items.css('overflow', 'hidden');
-			settings.shiftValue.x = parseInt(tmpShiftValue, 10);
-			settings.shiftValue.y = parseInt(tmpShiftValue, 10);
-			settings.parts.x = parseInt(tmpParts, 10);
-			settings.parts.y = parseInt(tmpParts, 10);
-		}
+		fade: function ($slider, settings, vars) {}
 	};
-
 $(document).ready(function() {
 	$('#slider').rhinoslider({
-		effect: 'kick',
-		easing: 'easeInExpo',
+		effect: 'fade',
+		easing: 'easeOutSine',
 		controlsMousewheel: false,
 		controlsKeyboard: false,
 		autoPlay: true,
-		showCaptions: 'always',
 		changeBullets: 'before',
 		prevText: '',
 		nextText: '',
 		playText: '',
-		pauseText: ''
+		pauseText: '',
+		styles: ''
 	});
 });
+
 
 })(jQuery, window);
