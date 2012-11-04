@@ -37,5 +37,6 @@
 			</section>
 		</footer>
 	</div>
+<a href="#myAnchor" id="anchor1" class="anchorLink">LINK</a>
 </body>
 </html>

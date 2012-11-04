@@ -17,6 +17,7 @@
 	<![endif]-->
 </head>
 <body>
+	<span class="myAnchor" id="myAnchor"></span>
 	<div class="contain">
 		<div class="hline"></div>
 		<div class="container">
