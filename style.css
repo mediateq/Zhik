@@ -1,6 +1,6 @@
-/* *,header,div,footer{
+*,header,div,footer{
 	outline: 1px dashed red;
-}*/
+}
 
 body{
 	direction:rtl;
@@ -351,9 +351,43 @@ section.contact div.contact-info h4 {
 }
 
 section.contact div.contact-info .map {
-
+	width: 450px;
+	height: 427px;
 }
 
-section.contact div.contact-info .map p {
+section.contact div.contact-info .map .pic{
+	width: 450px;
+	height: 245px;
+}
 
+section.contact div.contact-info .map .text{
+	width: 450px;
+	height: 90px;
+}
+
+section.contact div.contact-info .map .icon{
+	width: 450px;
+	height: 90px;
+}
+
+section.contact div.contact-info .map .icon .postzip{
+	width: 225px;
+	height: 90px;
+	float: left;
+	background-image: url('./images/postzip.png');
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+
+section.contact div.contact-info .map .icon .address{
+	width: 225px;
+	height: 90px;
+	background-image: url('./images/address.png');
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+
+section.contact div.contact-info .map .icon p{
+	margin-left: 50px;
+	text-align: right;
 }

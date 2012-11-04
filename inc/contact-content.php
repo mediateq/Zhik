@@ -11,7 +11,20 @@
 				<div class="contact-info">
 					<h2>اطلاعات تماس</h2>
 					<div class="map">
-						
+						<div class="pic"></div>
+						<div class="text"></div>
+						<div class="icon">
+							<div class="postzip">
+								<P>
+									خیابان شهید قندیخیابان شهید قندیخیابان شهید قندیخیابان شهید قندیخیابان شهید قندی
+								</P>
+							</div>
+							<div class="address">
+								<P>
+									تلفن: 123456789تلفن: 123456789تلفن: 123456789تلفن: 123456789تلفن: 123456789
+								</P>
+							</div>
+						</div>
 					</div>
 				</div>
 				<div class="badboy"></div>
