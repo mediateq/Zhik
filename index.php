@@ -118,8 +118,11 @@
 		<footer class="contain">
 			<section class="footer container">
 				<div class="first">
-					<div class="copyright"></div>
-					<div class="menu"></div>
+					<div class="copyright">
+						<p>
+						   کپی رایت 1391. کلیه حقوق این سایت متعلق به شرکت ژیک می باشد.
+						</p>
+					</div>
 				</div>
 				<div class="second">
 					<div class="header"></div>
