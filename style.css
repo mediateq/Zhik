@@ -21,9 +21,6 @@ div.contain div.hline{
 	background-position: center;
 }
 
-div.container{
-	min-height: 1550px;
-}
 /*////////////////////////////////Header/////////////////////////////*/
 header.header .head{
 	min-height: 70px;
@@ -62,7 +59,7 @@ header.header .head .search .submit{
 
 /*/////////////////////////////////Menu////////////////////////////////*/
 header.header nav{
-	margin-top: 35px;
+	margin-top: 50px;
 }
 
 header.header nav menu{
@@ -89,12 +86,13 @@ header.header nav menu li a{
 
 /*/////////////////////////////////Banner//////////////////////////////*/
 section.banner{
-	min-height: 570px;
-	margin-top: 25px;
+	margin-top: 50px;
 }
 
 section.banner .slideshow{
-	min-height: 500px;
+	min-height: 377px;
+	background: url('./images/slider-tail.png') 0 0 repeat;
+	border: 1px solid  #ccc;
 }
 
 section.banner .text{
