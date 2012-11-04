@@ -1,6 +1,6 @@
-*,header,div,footer{
+/* *,header,div,footer{
 	outline: 1px dashed red;
-}
+} */
 
 body{
 	direction:rtl;
@@ -114,32 +114,30 @@ section.banner .text p{
 
 /*///////////////////////////////////Welcome//////////////////////////*/
 section.welcome{
-	min-height: 340px;
+	border-top: 1px solid #d4d4d4;
+	border-bottom: 1px solid #d4d4d4;
 	margin-top: 30px;
-	padding-top: 20px;
 }
 
-section.welcome .first{
-	width: 317px;
-	min-height: 320px;
-	float: right;
+section.welcome > div{
+	background: url('./images/spacer.gif') right center repeat-y;
+	margin: -20px 0;
 }
 
-section.welcome .second{
-	width: 317px;
-	min-height: 320px;
-	float: right;
+section.welcome > div:first-child{
+	background: 0 none;
 }
 
+section.welcome .first,
+section.welcome .second,
 section.welcome .third{
-	margin-right: 634px;
-	min-height: 320px;
+	 float: right;
+	 width: 266px;
+	 padding: 40px 25px;
 }
-
 
 section.welcome .title{
 	min-height: 35px;
-	width: 317px;
 }
 
 section.welcome .title h2{
@@ -147,7 +145,6 @@ section.welcome .title h2{
 }
 
 section.welcome .text{
-	width: 317px;
 	min-height: 237px;
 }
 
