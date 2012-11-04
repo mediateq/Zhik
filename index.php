@@ -57,13 +57,13 @@
 					<p>شرکت ژیک جهت بهره وری بیشر در کارهای خود</p>
 				</div>
 			</section>
-			<section class="middle1">
+			<section class="welcome">
 				<div class="first"></div>
 				<div class="second"></div>
 				<div class="third"></div>
 				<div class="badboy"></div>
 			</section>
-			<section class="middle2">
+			<section class="recent">
 				<div class="first"></div>
 				<div class="second"></div>
 				<div class="third"></div>

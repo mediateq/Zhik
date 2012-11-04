@@ -113,48 +113,48 @@ section.banner .text p{
 }
 
 /*///////////////////////////////////Middle 1//////////////////////////*/
-section.middle1{
+section.welcome{
 	min-height: 340px;
 	margin-top: 30px;
 	padding-top: 20px;
 }
 
-section.middle1 .first{
+section.welcome .first{
 	width: 317px;
 	min-height: 320px;
 	float: left;
 }
 
-section.middle1 .second{
+section.welcome .second{
 	width: 317px;
 	min-height: 320px;
 	float: left;
 }
 
-section.middle1 .third{
+section.welcome .third{
 	margin-left: 634px;
 	min-height: 320px;
 }
 
 /*///////////////////////////////////Middle 2//////////////////////////*/
-section.middle2{
+section.recent{
 	min-height: 330px;
 	margin-top: 20px;
 }
 
-section.middle2 .first{
+section.recent .first{
 	min-height: 330px;
 	width: 317px;
 	float: left;
 }
 
-section.middle2 .second{
+section.recent .second{
 	min-height: 330px;
 	width: 317px;
 	float: left;
 }
 
-section.middle2 .third{
+section.recent .third{
 	min-height: 330px;
 	margin-left: 634px;
 }
