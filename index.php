@@ -45,11 +45,11 @@
 			<section class="banner">
 				<div class="slideshow">
 					<ul id="slider">
-						<li><img src="images/slider/slide1.jpg" alt="" /></li>
-						<li><img src="images/slider/slide2.jpg" alt="" /></li>
-						<li><img src="images/slider/slide3.jpg" alt="" /></li>
-						<li><img src="images/slider/slide4.jpg" alt="" /></li>
-						<li><img src="images/slider/slide5.jpg" alt="" /></li>
+						<li><img src="images/slider/slide11.jpg" alt="" /></li>
+						<li><img src="images/slider/slide22.jpg" alt="" /></li>
+						<li><img src="images/slider/slide33.jpg" alt="" /></li>
+						<li><img src="images/slider/slide44.jpg" alt="" /></li>
+						<li><img src="images/slider/slide55.jpg" alt="" /></li>
 					</ul>
 				</div>
 				<div class="text"></div>

@@ -90,17 +90,14 @@ section.banner{
 }
 
 section.banner .slideshow{
-	min-height: 377px;
-	background: url('./images/slider-tail.png') 0 0 repeat;
-	border: 1px solid  #ccc;
+	
 }
 
 section.banner .slideshow ul{
-	width:930px;
+	width:950px;
 	height:377px;
 	margin: 0 auto;
 	padding:0;
-	margin:0 auto;
 	list-style:none;
 }
 
