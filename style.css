@@ -198,8 +198,6 @@ footer.contain{
 	background-image: url('images/footer.gif');
 	background-position: center;
 	background-repeat: repeat-x repeat-y;
-	left: 0;
-	right: 0;
 	padding-top: 5px;
 }
 
@@ -356,11 +354,9 @@ section.contact div.contact-info h4 {
 }
 
 section.contact div.contact-info .map {
-	height       : 300px;
-	margin-bottom: 15px;
+
 }
 
 section.contact div.contact-info .map p {
-	line-height  : 20px;
-	margin-bottom: 20px;
+
 }
