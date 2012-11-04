@@ -103,7 +103,12 @@ section.banner .slideshow ul{
 
 section.banner .text{
 	min-height: 50px;
-	margin-top: 10px;
+	margin-top: 25px;
+}
+
+section.banner .text p{
+	text-align: center;
+	font-weight: bold;
 }
 
 /*///////////////////////////////////Middle 1//////////////////////////*/

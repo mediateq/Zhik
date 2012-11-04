@@ -52,7 +52,9 @@
 						<li><img src="images/slider/slide55.jpg" alt="" /></li>
 					</ul>
 				</div>
-				<div class="text"></div>
+				<div class="text">
+					<p>شرکت ژیک جهت بهره وری بیشر در کارهای خود</p>
+				</div>
 			</section>
 			<section class="middle1">
 				<div class="first"></div>
