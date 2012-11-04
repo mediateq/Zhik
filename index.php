@@ -3,8 +3,13 @@
 <head>
 	<meta charset="UTF-8">
 	<title></title>
-	<link rel="stylesheet" type="text/css" href="1styles.css" />
-	<link rel="stylesheet" type="text/css" href="style.css" />
+	<link rel="stylesheet" type="text/css" href="./1styles.css" />
+	<link type="text/css" rel="stylesheet" href="./slide.css" />
+	<link rel="stylesheet" type="text/css" href="./style.css" />
+	<script type="text/javascript" src="./js/jquery.js"></script>
+	<script type="text/javascript" src="./js/mousewheel.js"></script>
+	<script type="text/javascript" src="./js/easing.js"></script>
+	<script type="text/javascript" src="./js/slide.js"></script>
 </head>
 <body>
 	<div class="contain">
@@ -38,7 +43,15 @@
 				</nav>
 			</header>
 			<section class="banner">
-				<div class="slideshow"></div>
+				<div class="slideshow">
+					<ul id="slider">
+						<li><img src="images/slider/slide1.jpg" alt="" /></li>
+						<li><img src="images/slider/slide2.jpg" alt="" /></li>
+						<li><img src="images/slider/slide3.jpg" alt="" /></li>
+						<li><img src="images/slider/slide4.jpg" alt="" /></li>
+						<li><img src="images/slider/slide5.jpg" alt="" /></li>
+					</ul>
+				</div>
 				<div class="text"></div>
 			</section>
 			<section class="middle1">

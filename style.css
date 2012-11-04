@@ -95,6 +95,15 @@ section.banner .slideshow{
 	border: 1px solid  #ccc;
 }
 
+section.banner .slideshow ul{
+	width:930px;
+	height:377px;
+	margin: 0 auto;
+	padding:0;
+	margin:0 auto;
+	list-style:none;
+}
+
 section.banner .text{
 	min-height: 50px;
 	margin-top: 10px;
