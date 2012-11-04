@@ -4,11 +4,11 @@ The website for the architecture company
 -----------------------
 ###Contributing
 
-* Check our project's website and report any bugs or ideas in [issues](https://github.com/Cubatic/Zhik/issues)
+* Check our project's website and report any bugs or ideas in [issues](https://github.com/mediateq/Zhik/issues)
 
 * Check our project's source with
 ```
-  git clone https://github.com/Cubatic/Zhik.git
+  git clone https://github.com/mediateq/Zhik.git
 ```
 
 * [HTML5](http://en.wikipedia.org/wiki/Html5)
