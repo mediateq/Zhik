@@ -289,7 +289,6 @@ section.contact h2 {
 section.contact div.send-message form#contact {
 	padding         : 25px 25px 20px 0;
 	width           : 435px;
-	background-color: #f8f8f8;
 }
 
 section.contact div.send-message form#contact input.text {
