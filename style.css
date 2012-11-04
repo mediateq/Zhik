@@ -1,6 +1,6 @@
 /* *,header,div,footer{
 	outline: 1px dashed red;
-} */
+}*/
 
 body{
 	direction:rtl;
@@ -195,7 +195,6 @@ section.recent p{
 
 /*/////////////////////////////////////Footer///////////////////////////*/
 footer.contain{
-	min-height: 190px;
 	background-image: url('images/footer.gif');
 	background-position: center;
 	background-repeat: repeat-x repeat-y;
@@ -209,13 +208,12 @@ footer.contain .footer{
 }
 
 footer.contain .footer .first{
-	min-height: 75px;
 	width: 317px;
 	float: left;
 }
 
 footer.contain .footer .first .copyright{
-	min-height: 25px;
+	padding: 25px 30px;
 }
 
 footer.contain .footer .first .copyright p{
@@ -226,37 +224,36 @@ footer.contain .footer .first .copyright p{
 }
 
 footer.contain .footer .second{
-	min-height: 115px;
 	width: 317px;
 	float: left;
 }
 
 footer.contain .footer .second .header{
-	min-height: 25px; 
+ 
 }
 
 footer.contain .footer .second .text{
-	min-height: 65px;
 	margin-top: 15px;
 }
 
 footer.contain .footer .third{
-	min-height: 130px;
 	margin-left: 634px;
 }
 
 footer.contain .footer .third .header{
-	min-height: 25px;
+
 }
 
 footer.contain .footer .header p{
 	text-align: right;
 	color: #d4d4d4;
 	font-weight: bold;
+	margin-right:20px;
 }
-
 
 footer.contain .footer .text p{
 	text-align: right;
 	color: #d4d4d4;
+	margin-right:20px;
+	line-height: 2;
 }
