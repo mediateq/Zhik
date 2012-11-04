@@ -58,9 +58,18 @@
 				</div>
 			</section>
 			<section class="welcome">
-				<div class="first"></div>
-				<div class="second"></div>
-				<div class="third"></div>
+				<div class="first">
+					<div class="title"><h2>کار شماره 1</h2></div>
+					<div class="text"><p>کار شماره یک در خیابان</p></div>
+				</div>
+				<div class="second">
+					<div class="title"><h2>کار شماره 2</h2></div>
+					<div class="text"><p>کار شماره دو در خیابان</p></div>
+				</div>
+				<div class="third">
+					<div class="title"><h2>کار شماره 3</h2></div>
+					<div class="text"><p>کار شماره سه در خیابان</p></div>
+				</div>
 				<div class="badboy"></div>
 			</section>
 			<section class="recent">

@@ -112,7 +112,7 @@ section.banner .text p{
 	font-weight: bold;
 }
 
-/*///////////////////////////////////Middle 1//////////////////////////*/
+/*///////////////////////////////////Welcome//////////////////////////*/
 section.welcome{
 	min-height: 340px;
 	margin-top: 30px;
@@ -122,21 +122,40 @@ section.welcome{
 section.welcome .first{
 	width: 317px;
 	min-height: 320px;
-	float: left;
+	float: right;
 }
 
 section.welcome .second{
 	width: 317px;
 	min-height: 320px;
-	float: left;
+	float: right;
 }
 
 section.welcome .third{
-	margin-left: 634px;
+	margin-right: 634px;
 	min-height: 320px;
 }
 
-/*///////////////////////////////////Middle 2//////////////////////////*/
+
+section.welcome .title{
+	min-height: 35px;
+	width: 317px;
+}
+
+section.welcome .title h2{
+	text-align: right;
+}
+
+section.welcome .text{
+	width: 317px;
+	min-height: 237px;
+}
+
+section.welcome .text p{
+	text-align: right;
+}
+
+/*///////////////////////////////////Recent////////////////////////////*/
 section.recent{
 	min-height: 330px;
 	margin-top: 20px;
