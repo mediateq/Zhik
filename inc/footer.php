@@ -1,6 +1,7 @@
 	</div>
 		<footer class="contain">
 			<section class="footer container">
+				
 				<div class="first">
 					<div class="copyright">
 						<p>
@@ -35,8 +36,11 @@
 					</div>
 				</div>
 			</section>
+			<div class="anchor">
+					<a href="#myAnchor" id="anchor1" class="anchorLink"></a>
+			</div>
+			<div class="badboy"></div>
 		</footer>
 	</div>
-<a href="#myAnchor" id="anchor1" class="anchorLink">LINK</a>
 </body>
 </html>
