@@ -12,7 +12,6 @@
 					<h2>اطلاعات تماس</h2>
 					<div class="map">
 						<div class="pic"></div>
-						<div class="text"></div>
 						<div class="icon">
 							<div class="postzip">
 								<P>
