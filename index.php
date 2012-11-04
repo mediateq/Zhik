@@ -10,6 +10,9 @@
 	<script type="text/javascript" src="./js/mousewheel.js"></script>
 	<script type="text/javascript" src="./js/easing.js"></script>
 	<script type="text/javascript" src="./js/slide.js"></script>
+	<!--[if lt IE 9]>
+		<script src="./js/html5shiv.js"></script>
+	<![endif]-->
 </head>
 <body>
 	<div class="contain">
