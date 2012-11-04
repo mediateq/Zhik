@@ -167,18 +167,30 @@ section.recent{
 section.recent .first{
 	min-height: 330px;
 	width: 317px;
-	float: left;
+	float: right;
 }
 
 section.recent .second{
 	min-height: 330px;
 	width: 317px;
-	float: left;
+	float: right;
 }
 
 section.recent .third{
 	min-height: 330px;
-	margin-left: 634px;
+	margin-right: 634px;
+}
+
+section.recent h2{
+	margin-top: 10px;
+	margin-right: 15px;
+	text-align: right;
+}
+
+section.recent p{
+	text-align: right;
+	margin-top: 10px;
+	margin-right: 15px;
 }
 
 /*/////////////////////////////////////Footer///////////////////////////*/
