@@ -7,9 +7,11 @@
 	<link type="text/css" rel="stylesheet" href="./slide.css" />
 	<link rel="stylesheet" type="text/css" href="./style.css" />
 	<script type="text/javascript" src="./js/jquery.js"></script>
+	<script type="text/javascript" src="./js/zepto.js"></script>
 	<script type="text/javascript" src="./js/mousewheel.js"></script>
 	<script type="text/javascript" src="./js/easing.js"></script>
 	<script type="text/javascript" src="./js/slide.js"></script>
+	<script type="text/javascript" src="./js/scripts.js"></script>
 	<!--[if lt IE 9]>
 		<script src="./js/html5shiv.js"></script>
 	<![endif]-->
