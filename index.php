@@ -84,6 +84,7 @@
 				</div>
 				<div class="badboy"></div>
 			</section>
+			<div class="rectitle"><p>آخرین پروژه ها</p></div>
 			<section class="recent">
 				<div class="first"></div>
 				<div class="second"></div>
