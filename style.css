@@ -519,3 +519,34 @@ section.gallery{
 	margin-top: 50px;
 	min-height: 950px;
 }
+
+section.gallery .title{
+
+}
+
+section.gallery .title p{
+	font-weight: bold;
+}
+
+section.gallery p{
+	text-align: right;
+	padding-bottom: 20px;
+}
+
+section.gallery .gallerypic .first{
+	float: right;
+	width: 315px;
+	min-height: 450px;
+}
+
+section.gallery .gallerypic .second{
+	float: right;
+	width: 315px;
+	min-height: 450px;
+}
+
+section.gallery .gallerypic .third{
+	margin-right: 630px;
+	min-height: 450px;
+}
+
