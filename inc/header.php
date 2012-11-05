@@ -31,7 +31,7 @@
 					</div>
 					<div class="logo">
 						<a href="http://www.zhik.pro" title="zhik.pro">
-							<img src="./images/logo.png" alt="zhik" />
+							<img src="<?php bloginfo('template_url'); ?>/images/logo.png" alt="zhik" />
 						</a>
 					</div>
 					<div class="badboy"></div>

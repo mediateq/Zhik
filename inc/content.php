@@ -1,11 +1,11 @@
 			<section class="banner">
 				<div class="slideshow">
 					<ul id="slider">
-						<li><img src="images/slider/slide11.jpg" alt="" /></li>
-						<li><img src="images/slider/slide22.jpg" alt="" /></li>
-						<li><img src="images/slider/slide33.jpg" alt="" /></li>
-						<li><img src="images/slider/slide44.jpg" alt="" /></li>
-						<li><img src="images/slider/slide55.jpg" alt="" /></li>
+						<li><img src="<?php bloginfo('template_url'); ?>/images/slider/slide11.jpg" alt="" /></li>
+						<li><img src="<?php bloginfo('template_url'); ?>/images/slider/slide22.jpg" alt="" /></li>
+						<li><img src="<?php bloginfo('template_url'); ?>/images/slider/slide33.jpg" alt="" /></li>
+						<li><img src="<?php bloginfo('template_url'); ?>/images/slider/slide44.jpg" alt="" /></li>
+						<li><img src="<?php bloginfo('template_url'); ?>/images/slider/slide55.jpg" alt="" /></li>
 					</ul>
 				</div>
 				<div class="text">
@@ -44,21 +44,21 @@
 			<div class="rectitle"><p>آخرین پروژه ها</p></div>
 			<section class="recent">
 				<div class="first">
-					<img src="./images/recent/recent1.jpg" alt="">
+					<img src="<?php bloginfo('template_url'); ?>/images/recent/recent1.jpg" alt="">
 					<h2>پروژه 1</h2>
 					<p>
 						پروژه 1 در دست احداث استپروژه 1 در دست احداث استپروژه 1 در دست احداث استپروژه 1 در دست احداث استپروژه 1 در دست احداث استپروژه 1 در دست احداث استپروژه 1 در دست احداث استپروژه 1 در دست احداث استپروژه 1 در دست احداث است
 					</p>
 				</div>
 				<div class="second">
-					<img src="./images/recent/recent2.jpg" alt="">
+					<img src="<?php bloginfo('template_url'); ?>/images/recent/recent2.jpg" alt="">
 					<h2>پروژه 2</h2>
 					<p>
 						 پروژه 1 در دست احداث استپروژه 1 در دست احداث استپروژه 1 در دست احداث استپروژه 1 در دست احداث استپروژه 1 در دست احداث استپروژه 1 در دست احداث استپروژه 2 در دست احداث است
 					</p>
 				</div>
 				<div class="third">
-					<img src="./images/recent/recent3.jpg" alt="">
+					<img src="<?php bloginfo('template_url'); ?>/images/recent/recent3.jpg" alt="">
 					<h2>پروژه 3</h2>
 					<p>
 						 پروژه 1 در دست احداث استپروژه 1 در دست احداث استپروژه 1 در دست احداث استپروژه 1 در دست احداث استپروژه 1 در دست احداث استپروژه 1 در دست احداث استپروژه 1 در دست احداث استپروژه 3 در دست احداث است
