@@ -456,10 +456,25 @@ section.project .title{
 
 }
 
-section.project .pic{
+section.project .title p{
+	font-weight: bold;
+}
+
+section.project .textpic{
 
 }
 
-section.project .text{
-	
+section.project .textpic .pic{
+	min-height: 275px;
+	margin-right: 550px
+}
+
+section.project .textpic .text{
+	float: right;
+	min-height: 275px;
+}
+
+section.project p{
+	text-align: right;
+	padding-bottom: 20px;
 }
