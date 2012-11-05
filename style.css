@@ -4,11 +4,11 @@
 
 body{
 	direction:rtl;
-	/*background: url('./images/backpic/project.jpg') top center no-repeat;*/
+	background: url('./images/backpic/news.jpg') top center no-repeat;
 }
 
 div.contain{
-	background-image   : url('images/body.gif');
+	/*background-image   : url('images/body.gif');*/
 	background-repeat  : repeat-x repeat-y;
 	background-position: center;
 }
@@ -478,4 +478,10 @@ section.project p{
 	text-align: right;
 	padding-bottom: 20px;
 	line-height: 2;
+}
+
+/*/////////////////////////////////////News page///////////////////////////*/
+section.news{
+	margin-top: 50px;
+	min-height: 350px;
 }
