@@ -3,17 +3,17 @@
 <head>
 	<meta charset="UTF-8">
 	<title></title>
-	<link rel="stylesheet" type="text/css" href="./1styles.css" />
-	<link type="text/css" rel="stylesheet" href="./slide.css" />
-	<link rel="stylesheet" type="text/css" href="./style.css" />
-	<script type="text/javascript" src="./js/jquery.js"></script>
-	<script type="text/javascript" src="./js/zepto.js"></script>
-	<script type="text/javascript" src="./js/mousewheel.js"></script>
-	<script type="text/javascript" src="./js/easing.js"></script>
-	<script type="text/javascript" src="./js/slide.js"></script>
-	<script type="text/javascript" src="./js/scripts.js"></script>
+	<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url'); ?>/1styles.css" />
+	<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url'); ?>/slide.css" />
+	<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url'); ?>/style.css" />
+	<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/jquery.js"></script>
+	<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/zepto.js"></script>
+	<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/mousewheel.js"></script>
+	<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/easing.js"></script>
+	<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/slide.js"></script>
+	<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/scripts.js"></script>
 	<!--[if lt IE 9]>
-		<script src="./js/html5shiv.js"></script>
+		<script src="<?php bloginfo('template_url'); ?>/js/html5shiv.js"></script>
 	<![endif]-->
 </head>
 <body>
