@@ -4,11 +4,11 @@
 
 body{
 	direction:rtl;
-	background: url('./images/backpic/news.jpg') top center no-repeat;
+	/*background: url('./images/backpic/news.jpg') top center no-repeat;*/
 }
 
 div.contain{
-	/*background-image   : url('images/body.gif');*/
+	background-image   : url('images/body.gif');
 	background-repeat  : repeat-x repeat-y;
 	background-position: center;
 }
@@ -483,5 +483,33 @@ section.project p{
 /*/////////////////////////////////////News page///////////////////////////*/
 section.news{
 	margin-top: 50px;
-	min-height: 350px;
+}
+
+section.news .title{
+
+}
+
+section.news .title p{
+	font-weight: bold;
+}
+
+section.news .textpic{
+
+}
+
+section.news .textpic .pic{
+	min-height: 275px;
+	margin-right: 550px
+}
+
+section.news .textpic .text{
+	float: right;
+	width: 550px;
+	min-height: 275px;
+}
+
+section.news p{
+	text-align: right;
+	padding-bottom: 20px;
+	line-height: 2;
 }
