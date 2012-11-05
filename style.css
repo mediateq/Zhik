@@ -4,10 +4,11 @@
 
 body{
 	direction:rtl;
+	background: url('./images/backpic/project.jpg') top center no-repeat;
 }
 
 div.contain{
-	background-image   : url('images/body.gif');
+	/*background-image   : url('images/body.gif');*/
 	background-repeat  : repeat-x repeat-y;
 	background-position: center;
 }
@@ -446,3 +447,19 @@ section.about p{
 }
 
 /*/////////////////////////////////////Project page///////////////////////////*/
+section.project{
+	margin-top: 50px;
+	min-height: 500px;
+}
+
+section.project .title{
+
+}
+
+section.project .pic{
+
+}
+
+section.project .text{
+	
+}
