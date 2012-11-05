@@ -418,3 +418,29 @@ section.contact div.contact-info .map .icon p{
 }
 
 /*/////////////////////////////////////AboutUS page///////////////////////////*/
+section.about{
+	margin-top: 50px;
+	min-height: 500px;
+}
+
+section.about .title{
+
+}
+
+section.about .title p{
+	font-weight: bold;
+}
+
+section.about .text{
+
+}
+
+section.about .text p{
+
+}
+
+section.about p{
+	text-align: right;
+	line-height: 2;
+	padding-bottom: 20px;
+}
