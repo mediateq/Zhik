@@ -541,17 +541,17 @@ section.gallery .gallerypic .first{
 
 section.gallery .gallerypic .second{
 	float: right;
-	width: 315px;
+	width: 317px;
 	min-height: 450px;
 }
 
 section.gallery .gallerypic .third{
-	margin-right: 630px;
+	margin-right: 635px;
 	min-height: 450px;
 }
 
 section.gallery .gallerypic .pic{
-	min-height: 230px;
+
 }
 
 section.gallery .gallerypic .tit{
