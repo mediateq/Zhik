@@ -563,7 +563,8 @@ section.gallery .gallerypic .text{
 }
 
 section.gallery .gallerypic .text p{
-
+	padding-right: 15px;
+	padding-left: 10px;
 }
 
 
