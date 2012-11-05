@@ -1,14 +1,14 @@
 *,header,div,footer{
 	outline: 1px dashed red;
-}
+} 
 
 body{
 	direction:rtl;
-	background: url('./images/backpic/gallery.jpg') top center no-repeat;
+	/*background: url('./images/backpic/gallery.jpg') top center no-repeat;*/
 }
 
 div.contain{
-	/*background-image   : url('images/body.gif');*/
+	background-image   : url('images/body.gif');
 	background-repeat  : repeat-x repeat-y;
 	background-position: center;
 }
@@ -549,4 +549,25 @@ section.gallery .gallerypic .third{
 	margin-right: 630px;
 	min-height: 450px;
 }
+
+section.gallery .gallerypic .pic{
+	min-height: 230px;
+}
+
+section.gallery .gallerypic .tit{
+	min-height: 35px;
+}
+
+section.gallery .gallerypic .tit p{
+
+}
+
+section.gallery .gallerypic .text{
+	min-height: 175px;
+}
+
+section.gallery .gallerypic .text p{
+
+}
+
 
