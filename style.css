@@ -571,3 +571,31 @@ section.gallery .gallerypic .text p{
 section.article{
 	margin-top: 50px;
 }
+
+section.article .title h2{
+	font-weight: bold;
+	text-align: right;
+	padding-bottom: 20px;
+}
+
+section.article .tit{
+
+}
+
+section.article .tit p{
+	font-weight: bold;
+}
+
+section.article .text{
+
+}
+
+section.article .text p{
+
+}
+
+section.article p{
+	text-align: right;
+	line-height: 2;
+	padding-bottom: 20px;
+}
