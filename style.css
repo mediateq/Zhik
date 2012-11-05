@@ -1,6 +1,6 @@
-*,header,div,footer{
+/* *,header,div,footer{
 	outline: 1px dashed red;
-} 
+} */
 
 body{
 	direction:rtl;
@@ -517,7 +517,6 @@ section.news p{
 /*/////////////////////////////////////News page///////////////////////////*/
 section.gallery{
 	margin-top: 50px;
-	min-height: 950px;
 }
 
 section.gallery .title{
@@ -536,18 +535,15 @@ section.gallery p{
 section.gallery .gallerypic .first{
 	float: right;
 	width: 315px;
-	min-height: 450px;
 }
 
 section.gallery .gallerypic .second{
 	float: right;
 	width: 317px;
-	min-height: 450px;
 }
 
 section.gallery .gallerypic .third{
 	margin-right: 635px;
-	min-height: 450px;
 }
 
 section.gallery .gallerypic .pic{
