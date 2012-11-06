@@ -473,7 +473,7 @@ section.project .title{
 
 }
 
-section.project .title p{
+section.project .title h2{
 	font-weight: bold;
 }
 
@@ -483,16 +483,21 @@ section.project .textpic{
 
 section.project .textpic .pic{
 	min-height: 275px;
-	margin-right: 550px
+	float: left;
 }
 
 section.project .textpic .text{
-	float: right;
 	width: 550px;
 	min-height: 275px;
 }
 
 section.project p{
+	text-align: right;
+	padding-bottom: 20px;
+	line-height: 2;
+}
+
+section.project h2{
 	text-align: right;
 	padding-bottom: 20px;
 	line-height: 2;
@@ -538,7 +543,7 @@ section.news h2{
 }
 
 
-section.about 
+section.about {
 	margin-top: 50px;
 }
 

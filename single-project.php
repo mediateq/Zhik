@@ -3,7 +3,7 @@
 ?>
 
 	<section class="project">
-		<div class="title"><p>پروژه ها</p></div>	
+		<div class="title"><h2>پروژه ها</h2></div>	
 
 		<?php
 			while (have_posts()) {
