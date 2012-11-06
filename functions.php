@@ -20,6 +20,21 @@
 		'parent_item_colon' => '',
 		'menu_name' => 'مقالات'
 	);
+		$args = array(
+		'labels' => $labels,
+		'public' => true,
+		'publicly_queryable' => true,
+		'show_ui' => true,
+		'show_in_menu' => true,
+		'query_var' => true,
+		'rewrite' => true,
+		'capability_type' => 'post',
+		'has_archive' => true,
+		'hierarchical' => false,
+		'menu_position' => 5,
+		'menu_icon' => get_bloginfo('template_url') . '/images/articleicon.png',
+		'supports' => array('title','editor','thumbnail','excerpt','comments'),
+	);
 	}
 
 ?>
