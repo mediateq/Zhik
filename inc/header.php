@@ -37,15 +37,19 @@
 					<div class="badboy"></div>
 				</div>
 				<nav>
-					<menu>
-						<li><a href="#">صفحه اصلی</a></li>
-						<li><a href="#">درباره ما</a></li>
-						<li><a href="#">پروژه ها</a></li>
-						<li><a href="#">مطالب خواندی</a></li>
-						<li><a href="#">اخبار</a></li>
-						<li><a href="#">گالری تصاویر</a></li>
-						<li><a href="#">تماس با ما</a></li>
-					</menu>
+					<?php
+						wp_nav_menu(array(
+							'theme_location'  => 'mainmenu',
+							'container'       => false, 
+							'container_class' => '', 
+							'menu_class'      => '', 
+							'before'          => '',
+							'after'           => '',
+							'link_before'     => '',
+							'link_after'      => '',
+							'items_wrap'      => '<menu>%3$s<li></li></menu>'
+						));
+					?>
 					<div class="badboy"></div>
 				</nav>
 			</header>
