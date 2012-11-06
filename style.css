@@ -510,11 +510,10 @@ section.news .textpic{
 
 section.news .textpic .pic{
 	min-height: 275px;
-	margin-right: 550px
+	float: left;
 }
 
 section.news .textpic .text{
-	float: right;
 	width: 550px;
 	min-height: 275px;
 }
@@ -525,7 +524,13 @@ section.news p{
 	line-height: 2;
 }
 
-/*/////////////////////////////////////News page///////////////////////////*/
+section.news h2{
+	text-align: right;
+	padding-bottom: 20px;
+	font-weight: bold;
+}
+
+/*/////////////////////////////////////gallery page///////////////////////////*/
 section.gallery{
 	margin-top: 50px;
 }
