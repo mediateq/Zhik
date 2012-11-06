@@ -125,7 +125,7 @@
 
 			$html 	.= "<div class='textpic'>
 							<div class='text'>
-								<div class='tit'><h2> $title </h2></div>
+								<div class='tit'><a href=\"$url\"><h2> $title </h2></a></div>
 								<div class='date'> $date </div>
 								<div class='desc'><p> $content </p></div>
 							</div>
