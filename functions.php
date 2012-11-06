@@ -41,4 +41,26 @@
 		register_post_type('article', $args);
 	}
 
-?>
+	add_shortcode('article', 'all_article');
+
+	function all_article(){
+		$article = new WP_Query(array(
+		'post_type' => 'article'
+	));
+
+		$html = "";
+
+		while($article->have_posts()){
+			$article->the_post();
+
+			$title   = get_the_title();
+			$content = get_the_content();
+
+			$html 	.= "<div class='tit'><p> $title </p></div>	
+						<div class='text'>
+							<p> $content </p>
+						</div>";
+		}
+
+		return $html;
+	}

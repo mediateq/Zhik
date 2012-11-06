@@ -6,10 +6,7 @@
 
 				<?php
 
-					$article = new WP_Query(array(
-						'post_type' => 'article'
-					));
-
+				
 					while (have_posts()) {
 						the_post();
 					
