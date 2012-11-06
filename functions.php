@@ -189,13 +189,14 @@
 			$project-> the_post();
 
 			$title   = get_the_title();
+			$url     = get_permalink();
 			$content = get_the_content();
 			$pict    = get_the_post_thumbnail();
 
 			$html 	.= "<div class='textpic'>
 							<div class='pic'> $pict </div>
 							<div class='text'>
-								<div class='tit'><h2> $title </h2></div>
+								<div class='tit'><a href=\"$url\"><h2> $title </h2></a></div>
 								<div class='desc'><p> $content </p></div>
 							</div>
 							<div class='badboy'></div>
