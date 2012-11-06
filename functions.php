@@ -35,6 +35,8 @@
 		'menu_icon' => get_bloginfo('template_url') . '/images/articleicon.png',
 		'supports' => array('title','editor','thumbnail','excerpt','comments'),
 	);
+
+		register_post_type('article', $args);
 	}
 
 ?>
