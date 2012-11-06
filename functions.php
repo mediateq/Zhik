@@ -12,7 +12,7 @@
 		$labels = array(
 		'name' => _x('مقالات','post type general name'),
 		'singular_name' => _x('مقاله','post type singular name'),
-		'add_new' => _x('اضافه نمودن مقاله' , 'News'),
+		'add_new' => _x('اضافه نمودن مقاله' , 'Article'),
 		'add_new_item' => __('اضافه نمودن مقاله'),
 		'edit_item' => __('اصلاح مقاله'),
 		'new_item' => __('مقاله جدبد'),
@@ -128,6 +128,74 @@
 							<div class='text'>
 								<div class='tit'><a href=\"$url\"><h2> $title </h2></a></div>
 								<div class='date'><h2> $date </h2></div>
+								<div class='desc'><p> $content </p></div>
+							</div>
+							<div class='badboy'></div>
+						</div>";
+		}
+
+		return $html;
+	}
+
+//////////////////////////// Project page ////////////////////////////////
+	add_theme_support('post-thumbnails');
+
+	add_action('init','project_init');
+
+	function project_init(){
+		$labels = array(
+		'name' => _x('پروژه ها','post type general name'),
+		'singular_name' => _x('پروزه','post type singular name'),
+		'add_new' => _x('اضافه نمودن پروژه' , 'Projects'),
+		'add_new_item' => __('اضافه نمودن پروژه'),
+		'edit_item' => __('اصلاح پروژه'),
+		'new_item' => __('پروژه جدبد'),
+		'view_item' => __('مشاهده پروژه'),
+		'search_items' => __('جستجوی پروژه'),
+		'not_found' => __('هیچ پروژه ای یافت نشد'),
+		'not_found_in_trash' => __('هیچ پروژه ای در زباله دان یافت نشد'),
+		'parent_item_colon' => '',
+		'menu_name' => 'پروژه ها'
+	);
+		$args = array(
+		'labels' => $labels,
+		'public' => true,
+		'publicly_queryable' => true,
+		'show_ui' => true,
+		'show_in_menu' => true,
+		'query_var' => true,
+		'rewrite' => true,
+		'capability_type' => 'post',
+		'has_archive' => true,
+		'hierarchical' => false,
+		'menu_position' => 7,
+		'menu_icon' => get_bloginfo('template_url') . '/images/projecticon.png',
+		'supports' => array('title','editor','thumbnail','excerpt','comments'),
+	);
+
+		register_post_type('project', $args);
+	}
+
+	add_shortcode('project', 'all_project');
+
+	function all_project(){
+		$project = new WP_Query(array(
+		'post_type' => 'project'
+	));
+
+		$html = "";
+
+		while($project->have_posts()){
+			$project-> the_post();
+
+			$title   = get_the_title();
+			$content = get_the_content();
+			$pict    = get_the_post_thumbnail();
+
+			$html 	.= "<div class='textpic'>
+							<div class='pic'> $pict </div>
+							<div class='text'>
+								<div class='tit'><h2> $title </h2></div>
 								<div class='desc'><p> $content </p></div>
 							</div>
 							<div class='badboy'></div>
