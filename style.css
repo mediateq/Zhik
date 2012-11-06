@@ -13,6 +13,10 @@ License URI: http://github.com/mediateq/Zhik
 	outline: 1px dashed red;
 } */
 
+a{
+	border: 0 none;
+}
+
 body{
 	direction:rtl;
 	/*background: url('./images/backpic/gallery.jpg') top center no-repeat;*/
