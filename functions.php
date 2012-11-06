@@ -97,7 +97,7 @@
 		'capability_type' => 'post',
 		'has_archive' => true,
 		'hierarchical' => false,
-		'menu_position' => 5,
+		'menu_position' => 6,
 		'menu_icon' => get_bloginfo('template_url') . '/images/newsicon.png',
 		'supports' => array('title','editor','thumbnail','excerpt','comments'),
 	);
