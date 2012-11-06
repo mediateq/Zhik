@@ -530,6 +530,44 @@ section.news h2{
 	font-weight: bold;
 }
 
+
+section.about 
+	margin-top: 50px;
+}
+
+section.about .title{
+
+}
+
+section.about .title p{
+	font-weight: bold;
+}
+
+section.about .textpic{
+
+}
+
+section.about .textpic .pic{
+	min-height: 275px;
+	float: left;
+}
+
+section.about .textpic .text{
+	width: 550px;
+	min-height: 275px;
+}
+
+section.about p{
+	text-align: right;
+	padding-bottom: 20px;
+	line-height: 2;
+}
+
+section.about h2{
+	text-align: right;
+	padding-bottom: 20px;
+	font-weight: bold;
+}
 /*/////////////////////////////////////gallery page///////////////////////////*/
 section.gallery{
 	margin-top: 50px;
