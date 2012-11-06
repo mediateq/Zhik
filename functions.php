@@ -146,7 +146,7 @@
 		$labels = array(
 		'name' => _x('پروژه ها','post type general name'),
 		'singular_name' => _x('پروزه','post type singular name'),
-		'add_new' => _x('اضافه نمودن پروژه' , 'Projects'),
+		'add_new' => _x('اضافه نمودن پروژه' , 'Project'),
 		'add_new_item' => __('اضافه نمودن پروژه'),
 		'edit_item' => __('اصلاح پروژه'),
 		'new_item' => __('پروژه جدبد'),
