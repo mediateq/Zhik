@@ -3,6 +3,7 @@
 
 	register_nav_menu('mainmenu', "Main Menu");
 
+//////////////////////////// Article page ////////////////////////////////
 	add_theme_support('post-thumbnails');
 
 	add_action('init','article_init');
@@ -64,3 +65,5 @@
 
 		return $html;
 	}
+
+//////////////////////////// NEWS page ////////////////////////////////
