@@ -124,12 +124,12 @@
 			$pict    = get_the_post_thumbnail();
 
 			$html 	.= "<div class='textpic'>
+							<div class='pic'> $pict </div>
 							<div class='text'>
 								<div class='tit'><a href=\"$url\"><h2> $title </h2></a></div>
 								<div class='date'> $date </div>
 								<div class='desc'><p> $content </p></div>
 							</div>
-							<div class='pic'> $pict </div>
 							<div class='badboy'></div>
 						</div>";
 		}
