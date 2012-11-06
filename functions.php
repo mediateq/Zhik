@@ -119,8 +119,19 @@
 
 			$title   = get_the_title();
 			$content = get_the_content();
+			$date    = get_the_date();
+			$url     = get_permalink();
+			$pict    = get_the_post_thumbnail();
 
-			$html 	.= "";
+			$html 	.= "<div class='textpic'>
+							<div class='text'>
+								<div class='tit'><h2> $title </h2></div>
+								<div class='date'> $date </div>
+								<div class='desc'><p> $content </p></div>
+							</div>
+							<div class='pic'> $pict </div>
+							<div class='badboy'></div>
+						</div>";
 		}
 
 		return $html;
