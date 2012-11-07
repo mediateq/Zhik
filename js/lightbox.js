@@ -47,6 +47,16 @@ lightbox = new Lightbox options
   LightboxOptions = (function() {
 
     function LightboxOptions() {
+     
+      var isMSIE = /*@cc_on!@*/0;
+      if (isMSIE) {
+        this.fileLoadingImage = './images/loading.gif';
+        this.fileCloseImage = './images/close.png';
+      } else {
+        // this.fileLoadingImage = '/images/loading.gif';
+        // this.fileCloseImage = '/images/close.png';
+      }
+
       this.resizeDuration = 700;
       this.fadeDuration = 500;
       this.labelImage = "عکس";
