@@ -11,7 +11,7 @@
 					$gall_attach= array(
 								'numberposts' => '-1',
 								'orderby '=> 'menu_order',  
-								'order'=> 'ASC',  
+								'order'=> 'DESC',  
 								'post_mime_type' => 'image', 
 								'post_parent' => $post->ID, 
 								'post_status' => null, 
