@@ -15,7 +15,7 @@
 				<div class="pic"><?php the_post_thumbnail(); ?></div>
 				<div class="text">
 					<div class="tit"><h2><?php the_title(); ?></h2></div>
-					<div class="date"><h2><?php the_date(); ?></h2></div>
+					<div class="date"><h2><?php the_date('j F  Y , G:i'); ?></h2></div>
 					<div class="desc"><p><?php the_content(); ?></p></div>
 				</div>
 				<div class="badboy"></div>
