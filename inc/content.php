@@ -46,26 +46,31 @@
 			<!-- ------------------------recent--------------------- -->
 			<div class="rectitle"><p>آخرین پروژه ها</p></div>
 			<section class="recent">
-				<div class="first">
-					<img src="<?php bloginfo('template_url'); ?>/images/recent/recent1.jpg" alt="">
-					<h2>پروژه 1</h2>
-					<p>
-						پروژه 1 در دست احداث استپروژه 1 در دست احداث استپروژه 1 در دست احداث استپروژه 1 در دست احداث استپروژه 1 در دست احداث استپروژه 1 در دست احداث استپروژه 1 در دست احداث استپروژه 1 در دست احداث استپروژه 1 در دست احداث است
-					</p>
-				</div>
-				<div class="second">
-					<img src="<?php bloginfo('template_url'); ?>/images/recent/recent2.jpg" alt="">
-					<h2>پروژه 2</h2>
-					<p>
-						 پروژه 1 در دست احداث استپروژه 1 در دست احداث استپروژه 1 در دست احداث استپروژه 1 در دست احداث استپروژه 1 در دست احداث استپروژه 1 در دست احداث استپروژه 2 در دست احداث است
-					</p>
-				</div>
-				<div class="third">
-					<img src="<?php bloginfo('template_url'); ?>/images/recent/recent3.jpg" alt="">
-					<h2>پروژه 3</h2>
-					<p>
-						 پروژه 1 در دست احداث استپروژه 1 در دست احداث استپروژه 1 در دست احداث استپروژه 1 در دست احداث استپروژه 1 در دست احداث استپروژه 1 در دست احداث استپروژه 1 در دست احداث استپروژه 3 در دست احداث است
-					</p>
-				</div>
+				
+				<?php $args = array(
+				    'numberposts' => 10,
+				    'offset' => 0,
+				    'category' => 0,
+				    'orderby' => 'post_date',
+				    'order' => 'DESC',
+				    'include' => '',
+				    'exclude' => '',
+				    'meta_key' => '',
+				    'meta_value' =>'',
+				    'post_type' => 'project',
+				    'post_status' => 'draft, publish, future, pending, private',
+				    'suppress_filters' => true 
+				    ); 
+
+				$recent_posts = wp_get_recent_posts( $args );
+
+				foreach( $recent_posts as $recent ){
+					
+				}
+
+				?>
+
+				
+
 				<div class="badboy"></div>
 			</section>	
