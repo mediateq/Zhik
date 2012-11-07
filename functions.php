@@ -7,8 +7,8 @@
 		'name' => 'Middle Sidebar',
 		'id' => 'sidebar-m',
 		'description' => 'ستون های زیر اسلایدها',
-		'before_widget' => '<article class="widget %2$s">',
-		'after_widget' => "</article>\n",
+		'before_widget' => '<div class="widget %2$s">',
+		'after_widget' => "</div>\n",
 		'before_title' => '<h2 class="widgettitle">',
 		'after_title' => "</h2>\n"
 	));

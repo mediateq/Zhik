@@ -146,28 +146,24 @@ section.welcome > div:first-child{
 	border-right: 0 none;
 }
 
-section.welcome .first,
-section.welcome .second,
-section.welcome .third{
+section.welcome .widget{
 	 float: right;
 	 width: 260px;
 	 padding: 40px 25px;
 }
 
-section.welcome .title{
+section.welcome .widgettitle{
 	min-height: 35px;
 }
 
-section.welcome .title h2{
-	text-align: right;
-}
-
-section.welcome .text{
+section.welcome .textwidget{
 	min-height: 237px;
 }
 
-section.welcome .text p{
+section.welcome h2,
+section.welcome p{
 	text-align: right;
+	line-height: 2;
 }
 
 /*///////////////////////////////////Recent////////////////////////////*/
