@@ -48,7 +48,7 @@
 			<section class="recent">
 				
 				<?php $args = array(
-				    'numberposts' => 10,
+				    'numberposts' => 3,
 				    'offset' => 0,
 				    'category' => 0,
 				    'orderby' => 'post_date',
@@ -65,7 +65,7 @@
 				$recent_posts = wp_get_recent_posts( $args );
 
 				foreach( $recent_posts as $recent ){
-					
+				
 				}
 
 				?>
