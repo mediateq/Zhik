@@ -177,22 +177,12 @@ section.recent{
 	margin-top: 20px;
 }
 
-section.recent .first{
+section.recent .recentpro{
 	min-height: 330px;
-	width: 317px;
+	width: 315px;
 	float: right;
 }
 
-section.recent .second{
-	min-height: 330px;
-	width: 317px;
-	float: right;
-}
-
-section.recent .third{
-	min-height: 330px;
-	margin-right: 634px;
-}
 
 section.recent h2{
 	margin-top: 10px;

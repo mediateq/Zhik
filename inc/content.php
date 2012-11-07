@@ -71,7 +71,11 @@
 					$content = $recent["post_content"];
 					
 
-					echo "<div class='recentpro'><a href=\"$url\"> $title </a></div>";
+					echo "<div class='recentpro'>
+							<a href=\"$url\"><h2> $title </h2></a>
+							<p> $content </p>
+
+						</div>";
 				}
 
 				?>
