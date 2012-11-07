@@ -600,11 +600,12 @@ section.gallery p{
 
 section.gallery .gallerypic .pic{
 	float: right;
-	margin-left: 10px;
+	margin-right: 12px;
 }
 
-section.gallery .gallerypic .pic:first-child{
-	margin-right: 10px;
+section.gallery .gallerypic .pic img{
+	width: 300px;
+	height: 125px;
 }
 
 section.gallery .gallerypic .text{
@@ -613,7 +614,6 @@ section.gallery .gallerypic .text{
 
 section.gallery .gallerypic .text p{
 	padding: 10px 15px 0 10px;
-
 }
 
 /*/////////////////////////////////////Article page///////////////////////////*/
