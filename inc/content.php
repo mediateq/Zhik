@@ -95,14 +95,12 @@
 
 					$url     = get_permalink($recent["ID"]);
 					$title   = $recent["post_title"];
-					$content = $recent["post_content"];
 					$pict    = get_the_post_thumbnail($recent["ID"], "medium");
 					
 
 					echo "<div class='recentpro'>
 							<div class='pic'> $pict </div>
 							<a href=\"$url\"><h2> $title </h2></a>
-							<p> $content </p>
 						</div>";
 				}
 
