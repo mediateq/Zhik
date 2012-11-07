@@ -1,16 +1,19 @@
 			<section class="banner">
-				<div class="slideshow">
-					<ul id="slider">
-						<li><img src="<?php bloginfo('template_url'); ?>/images/slider/slide11.jpg" alt="" /></li>
-						<li><img src="<?php bloginfo('template_url'); ?>/images/slider/slide22.jpg" alt="" /></li>
-						<li><img src="<?php bloginfo('template_url'); ?>/images/slider/slide33.jpg" alt="" /></li>
-						<li><img src="<?php bloginfo('template_url'); ?>/images/slider/slide44.jpg" alt="" /></li>
-						<li><img src="<?php bloginfo('template_url'); ?>/images/slider/slide55.jpg" alt="" /></li>
-					</ul>
-				</div>
+				<?php
+					if (have_posts()){
+						the_post();
+				?>
+					<div class="slideshow">
+						<ul id="slider">
+							
+						</ul>
+					</div>
 				<div class="text">
-					<p>شرکت ژیک جهت بهره وری بیشر در کارهای خود</p>
+					<p><?php the_content(); ?></p>
 				</div>
+				<?php
+					}
+				?>
 			</section>
 			<!-- ------------------------welcome--------------------- -->
 			<section class="welcome">
