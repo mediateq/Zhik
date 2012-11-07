@@ -598,39 +598,22 @@ section.gallery p{
 	padding-bottom: 20px;
 }
 
-section.gallery .gallerypic .first{
-	float: right;
-	width: 315px;
-}
-
-section.gallery .gallerypic .second{
-	float: right;
-	width: 317px;
-}
-
-section.gallery .gallerypic .third{
-	margin-right: 635px;
-}
-
 section.gallery .gallerypic .pic{
-
+	float: right;
+	margin-left: 10px;
 }
 
-section.gallery .gallerypic .tit{
-	min-height: 35px;
-}
-
-section.gallery .gallerypic .tit p{
-
+section.gallery .gallerypic .pic:first-child{
+	margin-right: 10px;
 }
 
 section.gallery .gallerypic .text{
-	min-height: 175px;
+	height: 75px;
 }
 
 section.gallery .gallerypic .text p{
-	padding-right: 15px;
-	padding-left: 10px;
+	padding: 10px 15px 0 10px;
+
 }
 
 /*/////////////////////////////////////Article page///////////////////////////*/
