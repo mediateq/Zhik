@@ -38,9 +38,36 @@
 			</section>
 			<!-- ------------------------welcome--------------------- -->
 			<section class="welcome">
-				<?php
-			    	dynamic_sidebar("Middle Sidebar");
-			    ?>
+				<?php $args = array(
+				    'numberposts' => 3,
+				    'offset' => 0,
+				    'category' => 0,
+				    'orderby' => 'post_date',
+				    'order' => 'DESC',
+				    'include' => '',
+				    'exclude' => '',
+				    'meta_key' => '',
+				    'meta_value' =>'',
+				    'post_type' => 'news',
+				    'post_status' => 'draft, publish, future, pending, private',
+				    'suppress_filters' => true 
+				    ); 
+
+				$recent_posts = wp_get_recent_posts( $args );
+
+				foreach( $recent_posts as $recent ){
+
+					$url     = get_permalink($recent["ID"]);
+					$title   = $recent["post_title"];
+					$pict    = get_the_post_thumbnail($recent["ID"], "medium");
+
+					echo "<div class='recentwel'>
+							<a href=\"$url\"><h2> $title </h2></a>
+							<div class='pic'> $pict </div>
+						</div>";
+				}
+
+				?>
 				<div class="badboy"></div>
 			</section>
 			<!-- ------------------------recent--------------------- -->

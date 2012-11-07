@@ -146,18 +146,15 @@ section.welcome > div:first-child{
 	border-right: 0 none;
 }
 
-section.welcome .widget{
+section.welcome .recentwel{
 	 float: right;
 	 width: 260px;
 	 padding: 40px 25px;
 }
 
-section.welcome .widgettitle{
-	min-height: 35px;
-}
-
-section.welcome .textwidget{
-	min-height: 237px;
+section.welcome .recentwel .pic img{
+	width: 270px;
+	height: 150px;
 }
 
 section.welcome h2,
@@ -184,16 +181,11 @@ section.recent .recentpro{
 }
 
 
-section.recent h2{
-	margin-top: 10px;
-	margin-right: 15px;
-	text-align: right;
-}
-
+section.recent h2,
 section.recent p{
-	text-align: right;
 	margin-top: 10px;
 	margin-right: 15px;
+	text-align: right;
 }
 
 /*/////////////////////////////////////Footer///////////////////////////*/

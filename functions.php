@@ -3,16 +3,6 @@
 
 	register_nav_menu('mainmenu', "Main Menu");
 
-	register_sidebar(array(
-		'name' => 'Middle Sidebar',
-		'id' => 'sidebar-m',
-		'description' => 'ستون های زیر اسلایدها',
-		'before_widget' => '<div class="widget %2$s">',
-		'after_widget' => "</div>\n",
-		'before_title' => '<h2 class="widgettitle">',
-		'after_title' => "</h2>\n"
-	));
-
 //////////////////////////// Article page ////////////////////////////////
 	add_theme_support('post-thumbnails');
 
