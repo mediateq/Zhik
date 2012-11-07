@@ -65,7 +65,13 @@
 				$recent_posts = wp_get_recent_posts( $args );
 
 				foreach( $recent_posts as $recent ){
-				
+
+					$url     = get_permalink($recent["ID"]);
+					$title   = $recent["post_title"];
+					$content = $recent["post_content"];
+					
+
+					echo "<div class='recentpro'><a href=\"$url\"> $title </a></div>";
 				}
 
 				?>
