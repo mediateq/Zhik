@@ -36,6 +36,7 @@ a{
 
 a p,
 p{
+	text-align: right;
 	color: #000;
 	font-family: 'bmitra';
 	-webkit-transition: color 1s;
@@ -209,7 +210,6 @@ section.welcome .recentwel .pic img{
 }
 
 section.welcome p{
-	text-align: right;
 	font-size: 20px;
 	padding-right: 10px;
 	width: 250px;
@@ -219,28 +219,33 @@ section.welcome p{
 }
 
 /*///////////////////////////////////Recent////////////////////////////*/
-.container .rectitle{
-	text-align: right;
-	font-weight: bold;
-}
-
 section.recent{
-	min-height: 330px;
 	margin-top: 20px;
 }
 
+section.recent .rectitle p{
+	font-size: 25px;
+}
+
 section.recent .recentpro{
-	min-height: 330px;
-	width: 315px;
+	min-height: 250px;
+	width: 260px;
+	padding: 10px 25px;
 	float: right;
 }
 
+section.recent .recentpro img{
+	width: 270px;
+	height: 150px;
+}
 
-section.recent h2,
-section.recent p{
-	margin-top: 10px;
-	margin-right: 15px;
-	text-align: right;
+section.recent .recentpro p{
+	font-size: 20px;
+	padding-right: 10px;
+	width: 250px;
+	height: 50px;
+	overflow: hidden;
+	line-height: 2;
 }
 
 /*/////////////////////////////////////Footer///////////////////////////*/
@@ -265,7 +270,6 @@ footer.contain .footer .first .copyright{
 }
 
 footer.contain .footer .first .copyright p{
-	text-align: right;
 	color: #d4d4d4;
 	font-weight: bold;
 	line-height: 2;
@@ -293,14 +297,12 @@ footer.contain .footer .third .header{
 }
 
 footer.contain .footer .header p{
-	text-align: right;
 	color: #d4d4d4;
 	font-weight: bold;
 	margin-right:20px;
 }
 
 footer.contain .footer .text p{
-	text-align: right;
 	color: #d4d4d4;
 	margin-right:20px;
 	line-height: 2;
@@ -334,7 +336,6 @@ section.contact h2 {
 	font-size    : 22px;
 	margin-bottom:15px;
 	color        : #666;
-	text-align: right;
 }
 
 section.contact div.send-message form#contact {
@@ -437,7 +438,6 @@ section.contact div.contact-info .map .icon .address{
 
 section.contact div.contact-info .map .icon p{
 	margin-left: 50px;
-	text-align: right;
 }
 
 /*/////////////////////////////////////AboutUS page///////////////////////////*/
@@ -463,7 +463,6 @@ section.about .text p{
 }
 
 section.about p{
-	text-align: right;
 	line-height: 2;
 	padding-bottom: 20px;
 }
@@ -496,13 +495,11 @@ section.project .textpic .text{
 }
 
 section.project p{
-	text-align: right;
 	padding-bottom: 20px;
 	line-height: 2;
 }
 
 section.project h2{
-	text-align: right;
 	padding-bottom: 20px;
 	line-height: 2;
 }
@@ -535,13 +532,11 @@ section.news .textpic .text{
 }
 
 section.news p{
-	text-align: right;
 	padding-bottom: 20px;
 	line-height: 2;
 }
 
 section.news h2{
-	text-align: right;
 	padding-bottom: 20px;
 	font-weight: bold;
 }
@@ -574,13 +569,11 @@ section.about .textpic .text{
 }
 
 section.about p{
-	text-align: right;
 	padding-bottom: 20px;
 	line-height: 2;
 }
 
 section.about h2{
-	text-align: right;
 	padding-bottom: 20px;
 	font-weight: bold;
 }
@@ -598,7 +591,6 @@ section.gallery .title p{
 }
 
 section.gallery p{
-	text-align: right;
 	padding-bottom: 20px;
 }
 
@@ -627,7 +619,6 @@ section.article{
 
 section.article .title h2{
 	font-weight: bold;
-	text-align: right;
 	padding-bottom: 20px;
 }
 
@@ -648,7 +639,6 @@ section.article .text p{
 }
 
 section.article p{
-	text-align: right;
 	line-height: 2;
 	padding-bottom: 20px;
 }

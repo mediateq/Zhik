@@ -71,8 +71,8 @@
 				<div class="badboy"></div>
 			</section>
 			<!-- ------------------------recent--------------------- -->
-			<div class="rectitle"><p>آخرین پروژه ها</p></div>
 			<section class="recent">
+				<div class="rectitle"><p>آخرین پروژه ها</p></div>
 				
 				<?php $args = array(
 				    'numberposts' => 3,
@@ -99,14 +99,12 @@
 					
 
 					echo "<div class='recentpro'>
-							<div class='pic'> $pict </div>
 							<a href=\"$url\"><p> $title </p></a>
+							<div class='pic'> $pict </div>
 						</div>";
 				}
 
 				?>
-
-				
 
 				<div class="badboy"></div>
 			</section>	
