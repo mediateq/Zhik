@@ -26,8 +26,9 @@
 			<header class="header">
 				<div class="head">
 					<div class="search">
-						<form action="" method="post">
-							<input type="text" name="search" class="searchbox" placeholder="جستجو عبارت مورد نظر" />
+						<form action="http://www.google.com/search" method="get" target="_blank">
+							<input type="hidden" name="sitesearch" value="www.zhik.pro" />
+							<input type="text" name="search" class="searchbox" placeholder="جستجو در ژیک" />
 							<input type="submit" name="submit" class="submit" value="جستجو" />
 						</form>
 					</div>
