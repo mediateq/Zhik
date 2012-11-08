@@ -38,6 +38,20 @@ a p,
 p{
 	color: #000;
 	font-family: 'bmitra';
+	-webkit-transition: color 1s;
+	-ms-transition: color 1s;
+	-moz-transition: color 1s;
+	-o-transition: color 1s;
+	transition: color 1s;
+}
+
+a:hover p{
+	color: #9fb32b;
+	-webkit-transition: color 500ms;
+	-ms-transition: color 500ms;
+	-moz-transition: color 500ms;
+	-o-transition: color 500ms;
+	transition: color 500ms;
 }
 
 nav menu li.current_page_item a p{
@@ -135,22 +149,7 @@ header.header nav menu li a{
 }
 
 header.header nav menu li a p{
-	font-family: 'bmitra';
 	font-size: 23px;
-	-webkit-transition: color 1s;
-	-ms-transition: color 1s;
-	-moz-transition: color 1s;
-	-o-transition: color 1s;
-	transition: color 1s;
-}
-
-header.header nav menu li a:hover p{
-	color: #9fb32b;
-	-webkit-transition: color 500ms;
-	-ms-transition: color 500ms;
-	-moz-transition: color 500ms;
-	-o-transition: color 500ms;
-	transition: color 500ms;
 }
 
 /*/////////////////////////////////Banner//////////////////////////////*/
