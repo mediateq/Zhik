@@ -9,10 +9,6 @@ License: GNU General Public License v2 or later
 License URI: http://github.com/mediateq/Zhik
 */
 
-/* *,header,div,footer{
-	outline: 1px dashed red;
-} */
-
 @font-face {
     font-family: 'bmitra';
     src: url('./fonts/BMitra.eot');
@@ -34,10 +30,9 @@ a{
 	text-decoration: none;
 }
 
-a p,
-p{
+a p{
 	text-align: right;
-	color: #000;
+	color: #333;
 	font-family: 'bmitra';
 	-webkit-transition: color 1s;
 	-ms-transition: color 1s;
@@ -53,6 +48,12 @@ a:hover p{
 	-moz-transition: color 500ms;
 	-o-transition: color 500ms;
 	transition: color 500ms;
+}
+
+p{
+	text-align: right;
+	color: #111;
+	font-family: 'bmitra';
 }
 
 nav menu li.current_page_item a p{
@@ -156,10 +157,6 @@ header.header nav menu li a p{
 /*/////////////////////////////////Banner//////////////////////////////*/
 section.banner{
 	margin-top: 50px;
-}
-
-section.banner .slideshow{
-	
 }
 
 section.banner .slideshow ul{
@@ -270,18 +267,22 @@ footer.contain .footer .first .copyright{
 }
 
 footer.contain .footer .first .copyright p{
-	color: #d4d4d4;
-	font-weight: bold;
-	line-height: 2;
+	line-height: 1.5;
+	text-align: center;
+}
+
+footer.contain .footer a:hover p{
+	color: #9fb32b;
+	-webkit-transition: color 500ms;
+	-ms-transition: color 500ms;
+	-moz-transition: color 500ms;
+	-o-transition: color 500ms;
+	transition: color 500ms;
 }
 
 footer.contain .footer .second{
 	width: 317px;
 	float: left;
-}
-
-footer.contain .footer .second .header{
- 
 }
 
 footer.contain .footer .second .text{
@@ -292,20 +293,21 @@ footer.contain .footer .third{
 	margin-left: 634px;
 }
 
-footer.contain .footer .third .header{
-
-}
-
 footer.contain .footer .header p{
 	color: #d4d4d4;
-	font-weight: bold;
 	margin-right:20px;
+	font-size: 22px;
 }
 
-footer.contain .footer .text p{
-	color: #d4d4d4;
+footer.contain .footer p{
+	color: #f6f6f6;
 	margin-right:20px;
-	line-height: 2;
+	line-height: 1.5;
+	font-size: 15px;
+}
+
+footer.contain .footer a p{
+	color: #a6a6a6;
 }
 
 /*/////////////////////////////////////contact page///////////////////////////*/
