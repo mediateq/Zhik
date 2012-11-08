@@ -30,6 +30,10 @@ a:link {
     outline: none;
 }
 
+nav menu li.current_page_item a p{
+	color :  #9fb32b;
+}
+
 body{
 	direction:rtl;
 	/*background: url('./images/backpic/gallery.jpg') top center no-repeat;*/

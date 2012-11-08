@@ -47,8 +47,8 @@
 							'menu_class'      => '', 
 							'before'          => '',
 							'after'           => '',
-							'link_before'     => '',
-							'link_after'      => '',
+							'link_before'     => '<p>',
+							'link_after'      => '</p>',
 							'items_wrap'      => '<menu>%3$s<li></li></menu>'
 						));
 					?>
