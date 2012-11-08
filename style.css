@@ -294,35 +294,6 @@ footer.contain .footer .text p{
 	line-height: 2;
 }
 
-footer.contain .anchor{
-	float: right;
-	position: fixed;
-	bottom: 30px;
-	left: 50%;
-	margin-left: 550px;
-	margin-bottom: 0;
-}
-
-footer.contain .anchorLink{
-	display: block;
-	width: 50px;
-	height: 50px;
-	text-decoration: none;
-	background: #ddd url('./images/up-arrow.png') no-repeat center center;
-	border-radius: 5px;
-	text-align: center;
-	text-transform: uppercase;
-	-webkit-transition: 1s;
-	-ms-transition: 1s;
-	-o-transition: 1s;
-	-moz-transition: 1s;
-	transition: 1s;
-}
-
-footer.contain .anchor a:hover{
-	background-color: rgb(159,179,43);
-}
-
 /*/////////////////////////////////////contact page///////////////////////////*/
 section.contact{
 	margin-top: 50px;
