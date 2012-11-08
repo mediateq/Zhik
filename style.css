@@ -123,7 +123,6 @@ header.header nav menu li a{
 	padding: 30px 35px;
 	text-decoration: none;
 	color: #464646;	
-
 }
 
 header.header nav menu li a p{
@@ -169,7 +168,8 @@ section.banner .text{
 
 section.banner .text p{
 	text-align: center;
-	font-weight: bold;
+	font-family: 'bmitra';
+	font-size: 25px;
 }
 
 /*///////////////////////////////////Welcome//////////////////////////*/
