@@ -420,6 +420,8 @@ section.contact div.contact-info .map p{
 section.contact div.contact-info .map .pic{
 	width: 450px;
 	height: 335px;
+	margin-bottom: 30px;
+	padding-top: 25px;
 }
 
 section.contact div.contact-info .map .icon{
