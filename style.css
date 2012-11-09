@@ -341,8 +341,8 @@ section.contact h2 {
 }
 
 section.contact div.send-message form#contact {
-	padding         : 25px 25px 20px 0;
-	width           : 435px;
+	padding: 25px 25px 20px 0;
+	width  : 435px;
 }
 
 section.contact div.send-message form#contact input.text {
@@ -400,15 +400,21 @@ section.contact div.contact-info {
 	color       : #707070;
 }
 
-section.contact div.contact-info h4 {
+section.contact p{
 	font-size    : 20px;
 	margin-bottom:15px;
 	color        : #666;
 }
 
-section.contact div.contact-info .map {
+section.contact div.contact-info .map{
 	width: 450px;
 	height: 427px;
+}
+
+section.contact div.contact-info .map p{
+	font-size: 19px;
+	width: 150px;
+	padding-top: 15px;
 }
 
 section.contact div.contact-info .map .pic{
@@ -422,7 +428,7 @@ section.contact div.contact-info .map .icon{
 }
 
 section.contact div.contact-info .map .icon .postzip{
-	width: 225px;
+	width: 200px;
 	height: 90px;
 	float: left;
 	background-image: url('./images/postzip.png');
@@ -436,10 +442,6 @@ section.contact div.contact-info .map .icon .address{
 	background-image: url('./images/address.png');
 	background-repeat: no-repeat;
 	background-position: left center;
-}
-
-section.contact div.contact-info .map .icon p{
-	margin-left: 50px;
 }
 
 /*/////////////////////////////////////AboutUS page///////////////////////////*/

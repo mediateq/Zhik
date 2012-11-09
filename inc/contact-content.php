@@ -1,6 +1,6 @@
 			<section class="contact">
 				<div class="send-message">
-					<h2>ارسال پیام</h2>
+					<p>ارسال پیام</p>
 					<form action="sendmail.php" id="contact" method="post">
 						<input type="text" class="text" name="name" id="name" placeholder="نام" />
 						<input type="text" class="text" name="email" id="email" placeholder="ایمیل" />
@@ -9,19 +9,18 @@
 					</form>
 				</div>
 				<div class="contact-info">
-					<h2>اطلاعات تماس</h2>
+					<p>اطلاعات تماس</p>
 					<div class="map">
 						<div class="pic"></div>
 						<div class="icon">
 							<div class="postzip">
 								<P>
-									خیابان شهید قندیخیابان شهید قندیخیابان شهید قندیخیابان شهید قندیخیابان شهید قندی
+									آدرس: مشهد-بلوار معلم-بلوار جلال آل احمد..
 								</P>
 							</div>
 							<div class="address">
-								<P>
-									تلفن: 123456789تلفن: 123456789تلفن: 123456789تلفن: 123456789تلفن: 123456789
-								</P>
+								<P> تلفن: 123456789 </P>
+								<P> فکس: 123456789 </P>
 							</div>
 						</div>
 					</div>
