@@ -518,7 +518,7 @@ section.news .textpic .date p{
 }
 
 section.news .textpic .desc p{
-	font-size: 19px;
+	font-size: 18px;
 }
 
 section.news .text p{
@@ -572,6 +572,7 @@ section.gallery .no-image{
 /*/////////////////////////////////////Article page///////////////////////////*/
 section.article{
 	margin-top: 50px;
+	min-height: 450px;
 }
 
 section.article .tit p{
