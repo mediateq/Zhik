@@ -2,7 +2,7 @@
 <html lang="en-US">
 <head>
 	<meta charset="UTF-8">
-	<title></title>
+	<title><?php bloginfo('name'); wp_title(); ?></title>
 	<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url'); ?>/1styles.css" />
 	<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url'); ?>/slide.css" />
 	<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url'); ?>/style.css" />
