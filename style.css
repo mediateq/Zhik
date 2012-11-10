@@ -462,16 +462,12 @@ section.project{
 	margin-top: 50px;
 }
 
-section.project .title{
-
+section.project .textpic .tit p{
+	font-size: 20px;
 }
 
-section.project .title h2{
-	font-weight: bold;
-}
-
-section.project .textpic{
-
+section.project .textpic .desc p{
+	font-size: 18px;
 }
 
 section.project .textpic .pic{
@@ -482,16 +478,6 @@ section.project .textpic .pic{
 section.project .textpic .text{
 	width: 550px;
 	min-height: 275px;
-}
-
-section.project p{
-	padding-bottom: 20px;
-	line-height: 1.5;
-}
-
-section.project h2{
-	padding-bottom: 20px;
-	line-height: 1.5;
 }
 
 /*/////////////////////////////////////News page///////////////////////////*/
