@@ -54,10 +54,11 @@
 		while($article->have_posts()){
 			$article->the_post();
 
+			$url     = get_permalink();
 			$title   = get_the_title();
 			$content = get_the_content();
 
-			$html 	.= "<div class='tit'><p> $title </p></div>	
+			$html 	.= "<div class='tit'><a href=\"$url\"><p> $title </p></a></div>	
 							<div class='text'>
 								<p> $content </p>
 							</div>";
