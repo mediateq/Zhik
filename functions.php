@@ -57,10 +57,12 @@
 			$title   = get_the_title();
 			$content = get_the_content();
 
-			$html 	.= "<div class='tit'><p> $title </p></div>	
-						<div class='text'>
-							<p> $content </p>
-						</div>";
+			$html 	.= "<section class='article'>
+							<div class='tit'><p> $title </p></div>	
+							<div class='text'>
+								<p> $content </p>
+							</div>
+						</section>";
 		}
 
 		return $html;

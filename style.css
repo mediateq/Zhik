@@ -566,25 +566,12 @@ section.article{
 	margin-top: 50px;
 }
 
-section.article .title h2{
-	font-weight: bold;
-	padding-bottom: 20px;
-}
-
-section.article .tit{
-
-}
-
 section.article .tit p{
-	font-weight: bold;
-}
-
-section.article .text{
-
+	font-size: 20px;
 }
 
 section.article .text p{
-
+	font-size: 18px;
 }
 
 section.article p{
