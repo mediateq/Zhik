@@ -497,6 +497,7 @@ section.project h2{
 /*/////////////////////////////////////News page///////////////////////////*/
 section.news{
 	margin-top: 50px;
+	min-height: 450px;
 }
 
 section.news .textpic .text{
