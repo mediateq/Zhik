@@ -14,6 +14,7 @@
 	<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/slide.js"></script>
 	<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/scripts.js"></script>
 	<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/lightbox.js"></script>
+	<link rel="Shortcut Icon" href="<?php bloginfo('template_url'); ?>/favicon.ico" />
 	<!--[if lt IE 9]>
 		<script src="<?php bloginfo('template_url'); ?>/js/html5shiv.js"></script>
 	<![endif]-->
