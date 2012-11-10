@@ -212,7 +212,7 @@ section.welcome p{
 	width: 250px;
 	height: 50px;
 	overflow: hidden;
-	line-height: 2;
+	line-height: 1.5;
 }
 
 /*///////////////////////////////////Recent////////////////////////////*/
@@ -242,7 +242,7 @@ section.recent .recentpro p{
 	width: 250px;
 	height: 50px;
 	overflow: hidden;
-	line-height: 2;
+	line-height: 1.5;
 }
 
 /*/////////////////////////////////////Footer///////////////////////////*/
@@ -454,8 +454,7 @@ section.about{
 
 section.about .text p{
 	font-size: 22px;
-	line-height: 2;
-	padding-bottom: 20px;
+	line-height: 1.5;
 }
 
 /*/////////////////////////////////////Project page///////////////////////////*/
@@ -487,12 +486,12 @@ section.project .textpic .text{
 
 section.project p{
 	padding-bottom: 20px;
-	line-height: 2;
+	line-height: 1.5;
 }
 
 section.project h2{
 	padding-bottom: 20px;
-	line-height: 2;
+	line-height: 1.5;
 }
 
 /*/////////////////////////////////////News page///////////////////////////*/
@@ -500,16 +499,25 @@ section.news{
 	margin-top: 50px;
 }
 
-section.news .title{
-
+section.news .textpic .text{
+	width: 550px;
+	min-height: 275px;
 }
 
-section.news .title p{
-	font-weight: bold;
+section.news .textpic .tit p{
+	font-size: 20px;
 }
 
-section.news .textpic{
+section.news .textpic .date p{
+	font-size: 18px;
+}
 
+section.news .textpic .desc p{
+	font-size: 19px;
+}
+
+section.news p{
+	padding-bottom: 7px;
 }
 
 section.news .textpic .pic{
@@ -517,57 +525,6 @@ section.news .textpic .pic{
 	float: left;
 }
 
-section.news .textpic .text{
-	width: 550px;
-	min-height: 275px;
-}
-
-section.news p{
-	padding-bottom: 20px;
-	line-height: 2;
-}
-
-section.news h2{
-	padding-bottom: 20px;
-	font-weight: bold;
-}
-
-
-section.about {
-	margin-top: 50px;
-}
-
-section.about .title{
-
-}
-
-section.about .title p{
-	font-weight: bold;
-}
-
-section.about .textpic{
-
-}
-
-section.about .textpic .pic{
-	min-height: 275px;
-	float: left;
-}
-
-section.about .textpic .text{
-	width: 550px;
-	min-height: 275px;
-}
-
-section.about p{
-	padding-bottom: 20px;
-	line-height: 2;
-}
-
-section.about h2{
-	padding-bottom: 20px;
-	font-weight: bold;
-}
 /*/////////////////////////////////////gallery page///////////////////////////*/
 section.gallery{
 	margin-top: 50px;
@@ -630,6 +587,6 @@ section.article .text p{
 }
 
 section.article p{
-	line-height: 2;
+	line-height: 1.5;
 	padding-bottom: 20px;
 }

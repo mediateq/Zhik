@@ -123,15 +123,17 @@
 			$url     = get_permalink();
 			$pict    = get_the_post_thumbnail();
 
-			$html 	.= "<div class='textpic'>
-							<div class='pic'> $pict </div>
-							<div class='text'>
-								<div class='tit'><a href=\"$url\"><h2> $title </h2></a></div>
-								<div class='date'><h2> $date </h2></div>
-								<div class='desc'><p> $content </p></div>
+			$html 	.= "<section class='news'>
+							<div class='textpic'>
+								<div class='pic'> $pict </div>
+								<div class='text'>
+									<div class='tit'><a href=\"$url\"><p> $title </p></a></div>
+									<div class='date'><p> $date </p></div>
+									<div class='desc'><p> $content </p></div>
+								</div>
+								<div class='badboy'></div>
 							</div>
-							<div class='badboy'></div>
-						</div>";
+						</section>";
 		}
 
 		return $html;
