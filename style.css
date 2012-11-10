@@ -452,23 +452,8 @@ section.about{
 	min-height: 500px;
 }
 
-section.about .title{
-
-}
-
-section.about .title p{
-	font-weight: bold;
-}
-
-section.about .text{
-
-}
-
 section.about .text p{
-
-}
-
-section.about p{
+	font-size: 22px;
 	line-height: 2;
 	padding-bottom: 20px;
 }
