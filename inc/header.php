@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html lang="en-US">
 <head>
-	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" charset="UTF-8" />
 	<title><?php bloginfo('name'); wp_title(); ?></title>
 	<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url'); ?>/1styles.css" />
 	<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url'); ?>/slide.css" />
