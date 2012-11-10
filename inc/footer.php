@@ -32,7 +32,7 @@
 						<p>
 							تلفن: 123456789
 						</p><br />
-						<a href='mailto:info@zhik.pro'><p>ایمیل: INFO[at]ZHIK[dot]PRO</p></a>
+						<a href='mailto:info@zhik.pro' target='_blank'><p>ایمیل: INFO[at]ZHIK[dot]PRO</p></a>
 					</div>
 				</div>
 			</section>
