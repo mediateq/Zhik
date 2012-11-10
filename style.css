@@ -488,6 +488,11 @@ section.project .textpic .pic{
 	float: left;
 }
 
+section.project .textpic .pic img{
+	width: 367px;
+	height: 182px;
+}
+
 section.project .textpic .text{
 	width: 550px;
 	min-height: 275px;
@@ -524,6 +529,11 @@ section.news .text p{
 section.news .textpic .pic{
 	min-height: 275px;
 	float: left;
+}
+
+section.news .textpic .pic img{
+	width: 367px;
+	height: 182px;
 }
 
 /*/////////////////////////////////////gallery page///////////////////////////*/
