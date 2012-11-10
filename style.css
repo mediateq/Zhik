@@ -515,14 +515,7 @@ section.news .textpic .pic{
 /*/////////////////////////////////////gallery page///////////////////////////*/
 section.gallery{
 	margin-top: 50px;
-}
-
-section.gallery .title{
-
-}
-
-section.gallery .title p{
-	font-weight: bold;
+	min-height: 450px;
 }
 
 section.gallery p{
@@ -545,6 +538,11 @@ section.gallery .gallerypic .text{
 
 section.gallery .gallerypic .text p{
 	padding: 10px 15px 0 10px;
+}
+
+section.gallery .no-image{
+	font-size: 22px;
+	text-align: center;
 }
 
 /*/////////////////////////////////////Article page///////////////////////////*/

@@ -1,5 +1,4 @@
 	<section class="gallery">
-		<div class="title"><p>گالری</p></div>
 		<?php
 			if (have_posts()) {
 				the_post();
@@ -39,7 +38,7 @@
 
 						
 
-					}else echo "<p class='no-image'>تصویری در گالری یافت نشد</p>";
+					}else echo "<p class='no-image'>تصویری در گالری موجود نمی باشد</p>";
 				?>
 
 			</div>
