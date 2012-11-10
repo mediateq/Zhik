@@ -49,7 +49,7 @@
 		'post_type' => 'article'
 	));
 
-		$html = "";
+		$html = "<section class='article'>";
 
 		while($article->have_posts()){
 			$article->the_post();
@@ -57,14 +57,13 @@
 			$title   = get_the_title();
 			$content = get_the_content();
 
-			$html 	.= "<section class='article'>
-							<div class='tit'><p> $title </p></div>	
+			$html 	.= "<div class='tit'><p> $title </p></div>	
 							<div class='text'>
 								<p> $content </p>
-							</div>
-						</section>";
+							</div>";
 		}
 
+		$html 	.= "</section>";
 		return $html;
 	}
 
@@ -114,7 +113,7 @@
 		'post_type' => 'news'
 	));
 
-		$html = "";
+		$html = "<section class='news'>";
 
 		while($news->have_posts()){
 			$news->the_post();
@@ -125,19 +124,18 @@
 			$url     = get_permalink();
 			$pict    = get_the_post_thumbnail();
 
-			$html 	.= "<section class='news'>
-							<div class='textpic'>
-								<div class='pic'> $pict </div>
-								<div class='text'>
-									<div class='tit'><a href=\"$url\"><p> $title </p></a></div>
-									<div class='date'><p> $date </p></div>
-									<div class='desc'><p> $content </p></div>
-								</div>
-								<div class='badboy'></div>
+			$html 	.= "<div class='textpic'>
+							<div class='pic'> $pict </div>
+							<div class='text'>
+								<div class='tit'><a href=\"$url\"><p> $title </p></a></div>
+								<div class='date'><p> $date </p></div>
+								<div class='desc'><p> $content </p></div>
 							</div>
-						</section>";
+							<div class='badboy'></div>
+						</div>";
 		}
 
+		$html 	.= "</section>";
 		return $html;
 	}
 
@@ -187,7 +185,7 @@
 		'post_type' => 'project'
 	));
 
-		$html = "";
+		$html = "<section class='project'>";
 
 		while($project->have_posts()){
 			$project-> the_post();
@@ -197,17 +195,16 @@
 			$content = get_the_content();
 			$pict    = get_the_post_thumbnail();
 
-			$html 	.= "<section class='project'>
-							<div class='textpic'>
-								<div class='pic'> $pict </div>
-								<div class='text'>
-									<div class='tit'><a href=\"$url\"><p> $title </p></a></div>
-									<div class='desc'><p> $content </p></div>
-								</div>
-								<div class='badboy'></div>
+			$html 	.= "<div class='textpic'>
+							<div class='pic'> $pict </div>
+							<div class='text'>
+								<div class='tit'><a href=\"$url\"><p> $title </p></a></div>
+								<div class='desc'><p> $content </p></div>
 							</div>
-						</secion>";
+							<div class='badboy'></div>
+						</div>";
 		}
 
+		$html 	.= "</secion>";
 		return $html;
 	}
