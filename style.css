@@ -460,6 +460,7 @@ section.about .text p{
 /*/////////////////////////////////////Project page///////////////////////////*/
 section.project{
 	margin-top: 50px;
+	min-height: 450px;
 }
 
 section.project .textpic .tit p{
@@ -468,6 +469,10 @@ section.project .textpic .tit p{
 
 section.project .textpic .desc p{
 	font-size: 18px;
+}
+
+section.project .text p{
+	padding-bottom: 7px;
 }
 
 section.project .textpic .pic{
@@ -503,8 +508,9 @@ section.news .textpic .desc p{
 	font-size: 19px;
 }
 
-section.news p{
+section.news .text p{
 	padding-bottom: 7px;
+	line-height: 1;
 }
 
 section.news .textpic .pic{
