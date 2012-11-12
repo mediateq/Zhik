@@ -36,7 +36,7 @@
 					}
 				?>
 			</section>
-			<!-- ------------------------welcome--------------------- -->
+
 			<section class="welcome">
 				<?php $args = array(
 				    'numberposts' => 3,
@@ -70,7 +70,7 @@
 				?>
 				<div class="badboy"></div>
 			</section>
-			<!-- ------------------------recent--------------------- -->
+
 			<section class="recent">
 				<div class="rectitle"><p>آخرین پروژه ها</p></div>
 				
