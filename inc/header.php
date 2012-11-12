@@ -29,8 +29,8 @@
 					<div class="search">
 						<form action="http://www.google.com/search" method="get" target="_blank">
 							<input type="hidden" name="sitesearch" value="www.zhik.pro" />
-							<input type="text" name="search" class="searchbox" placeholder="جستجو در ژیک" />
-							<input type="submit" name="submit" class="submit" value="جستجو" />
+							<input type="text" name="as_q" class="searchbox" placeholder="جستجو در ژیک" />
+							<input type="submit" class="submit" title="search" value="جستجو" />
 						</form>
 					</div>
 					<div class="logo">
