@@ -58,7 +58,7 @@
 			$title   = get_the_title();
 			$content = get_the_content();
 
-			$html 	.= "<div class='tit'><a href=\"$url\"><p> $title </p></a></div>	
+			$html 	.= "<div class='tit'><h5><a href=\"$url\"> $title </a></h5></div>	
 							<div class='text'>
 								<p> $content </p>
 							</div>";
@@ -128,7 +128,7 @@
 			$html 	.= "<div class='textpic'>
 							<div class='pic'> $pict </div>
 							<div class='text'>
-								<div class='tit'><a href=\"$url\"><p> $title </p></a></div>
+								<div class='tit'><h5><a href=\"$url\"> $title </a></h5></div>
 								<div class='date'><p> $date </p></div>
 								<div class='desc'><p> $content </p></div>
 							</div>
@@ -199,7 +199,7 @@
 			$html 	.= "<div class='textpic'>
 							<div class='pic'> $pict </div>
 							<div class='text'>
-								<div class='tit'><a href=\"$url\"><p> $title </p></a></div>
+								<div class='tit'><h5><a href=\"$url\"> $title </a></h5></div>
 								<div class='desc'><p> $content </p></div>
 							</div>
 							<div class='badboy'></div>

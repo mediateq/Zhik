@@ -27,10 +27,11 @@ a:link {
 }
 
 a{
+	cursor: auto;
 	text-decoration: none;
 }
 
-a p{
+h5 a{
 	text-align: right;
 	color: #555;
 	font-family: 'bmitra';
@@ -41,7 +42,7 @@ a p{
 	transition: color 1s;
 }
 
-a:hover p{
+ h5 a:hover{
 	color: #9fb32b;
 	-webkit-transition: color 500ms;
 	-ms-transition: color 500ms;
@@ -50,7 +51,9 @@ a:hover p{
 	transition: color 500ms;
 }
 
-p{
+p,
+h5{
+	display: block;
 	text-align: right;
 	color: #111;
 	font-family: 'bmitra';
@@ -206,7 +209,8 @@ section.welcome .recentwel .pic img{
 	height: 150px;
 }
 
-section.welcome p{
+section.welcome p,
+section.welcome h5{
 	font-size: 20px;
 	padding-right: 10px;
 	width: 250px;
@@ -236,7 +240,8 @@ section.recent .recentpro img{
 	height: 150px;
 }
 
-section.recent .recentpro p{
+section.recent .recentpro p,
+section.recent .recentpro h5{
 	font-size: 20px;
 	padding-right: 10px;
 	width: 250px;
@@ -266,12 +271,13 @@ footer.contain .footer .first .copyright{
 	padding: 30px 30px;
 }
 
-footer.contain .footer .first .copyright p{
+footer.contain .footer .first .copyright p,
+footer.contain .footer .first .copyright h5{
 	line-height: 1.5;
 	text-align: center;
 }
 
-footer.contain .footer a:hover p{
+footer.contain .footer h5 a:hover{
 	color: #9fb32b;
 	-webkit-transition: color 500ms;
 	-ms-transition: color 500ms;
@@ -306,7 +312,7 @@ footer.contain .footer p{
 	font-size: 15px;
 }
 
-footer.contain .footer a p{
+footer.contain .footer h5 a{
 	color: #a6a6a6;
 }
 
@@ -471,7 +477,7 @@ section.project{
 	min-height: 500px;
 }
 
-section.project .textpic .tit p{
+section.project .textpic .tit h5{
 	font-size: 20px;
 }
 
@@ -509,7 +515,7 @@ section.news .textpic .text{
 	min-height: 275px;
 }
 
-section.news .textpic .tit p{
+section.news .textpic .tit h5{
 	font-size: 20px;
 }
 
@@ -575,7 +581,7 @@ section.article{
 	min-height: 500px;
 }
 
-section.article .tit p{
+section.article .tit h5{
 	font-size: 20px;
 }
 

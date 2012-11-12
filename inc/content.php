@@ -62,7 +62,7 @@
 					$pict    = get_the_post_thumbnail($recent["ID"], "medium");
 
 					echo "<div class='recentwel'>
-							<a href=\"$url\"><p> $title </p></a>
+							<h5><a href=\"$url\"> $title </a></h5>
 							<div class='pic'> $pict </div>
 						</div>";
 				}
@@ -99,7 +99,7 @@
 					
 
 					echo "<div class='recentpro'>
-							<a href=\"$url\"><p> $title </p></a>
+							<h5><a href=\"$url\"> $title </a></h5>
 							<div class='pic'> $pict </div>
 						</div>";
 				}
