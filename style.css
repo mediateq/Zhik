@@ -31,7 +31,8 @@ a{
 	text-decoration: none;
 }
 
-h5 a{
+h5 a,
+a p{
 	text-align: right;
 	color: #555;
 	font-family: 'bmitra';
@@ -42,7 +43,8 @@ h5 a{
 	transition: color 1s;
 }
 
- h5 a:hover{
+h5 a:hover,
+a:hover h5{
 	color: #9fb32b;
 	-webkit-transition: color 500ms;
 	-ms-transition: color 500ms;
