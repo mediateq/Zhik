@@ -6,7 +6,7 @@
 						<p>
 						   کپی رایت 1391. کلیه حقوق این سایت متعلق به شرکت ژیک می باشد.
 						</p>
-						<h5><a href="#">طراح mediateq</a></h5>
+						<h5><a href="http://mediateq.github.com" target="_blank">طراح mediateq</a></h5>
 					</div>
 				</div>
 				<div class="second">
@@ -16,8 +16,8 @@
 						</p>
 					</div>
 					<div class="text">
-						<h5><a href="#">
-							 شرکت ژیک از سال 13..
+						<h5><a href="http://zhik.pro/درباره-ما" target="_blank">
+							درباره شرکت...
 						</a></h5>
 					</div>
 				</div>
@@ -30,7 +30,7 @@
 						<p>
 							تلفن: 123456789
 						</p><br />
-						<h5><a href='mailto:info@zhik.pro' target='_blank'>ایمیل: INFO[at]ZHIK[dot]PRO</a></h5>
+						<h5><a href='mailto:info@zhik.pro' target='_blank'>ایمیل: info[at]zhik[dot]pro</a></h5>
 					</div>
 				</div>
 			</section>
