@@ -121,7 +121,7 @@
 
 			$title   = get_the_title();
 			$content = get_the_content();
-			$date    = get_the_date('j F  Y - G:i');
+			$date    = apply_filters('the_date()', get_the_date('j F  Y - G:i'));
 			$url     = get_permalink();
 			$pict    = get_the_post_thumbnail();
 
