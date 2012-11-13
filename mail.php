@@ -30,7 +30,7 @@
 		if( @mail(
 			$admin,
 
-			" zhik.com contact : $name <$email>",
+			" zhik.com contact : $name <$mail>",
 
 			$message)
 			){

@@ -1,7 +1,7 @@
 			<section class="contact">
 				<div class="send-message">
 					<p>ارسال پیام</p>
-					<form action="<?php bloginfo('template_url'); ?>/mail.php" id="contact" method="post">
+					<form action="<?php bloginfo('template_url'); ?>/mail.php" id="contact" method="post" target="_blank">
 						<input type="text" class="text" name="name" id="name" placeholder="نام" />
 						<input type="text" class="text" name="email" id="email" placeholder="ایمیل" />
 						<textarea name="message" id="message" cols="65" rows="16" placeholder="پیام"></textarea>
